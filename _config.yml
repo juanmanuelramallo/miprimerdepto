@@ -53,3 +53,5 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - bin/
+  - _plugins/
+  - main.css
