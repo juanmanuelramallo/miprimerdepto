@@ -1,4 +1,4 @@
-FROM ruby:3.1.2 AS builder
+FROM alpine:3.20.1 AS builder
 RUN apt-get update -qq && apt-get install -y build-essential
 RUN gem update --system
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
