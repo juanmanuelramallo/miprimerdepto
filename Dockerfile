@@ -1,9 +1,10 @@
-FROM alpine:3.20.1 AS builder
-RUN apt-get update -qq && apt-get install -y build-essential
-RUN gem update --system
-RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-RUN nvm install 22
-RUN npm install -g yarn
+FROM ruby:3.3.3 AS builder
+# Install yarn
+RUN apt-get update && apt-get install -y curl
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+RUN apt-get update && apt-get install -y yarn
+
 WORKDIR /srv/jekyll
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
