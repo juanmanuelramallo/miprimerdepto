@@ -1,6 +1,8 @@
 FROM ruby:3.1.2 AS builder
-RUN apt-get update -qq && apt-get install -y build-essential nodejs
+RUN apt-get update -qq && apt-get install -y build-essential
 RUN gem update --system
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+RUN nvm install 22
 RUN npm install -g yarn
 WORKDIR /srv/jekyll
 COPY Gemfile Gemfile.lock ./
