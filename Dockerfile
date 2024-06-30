@@ -1,6 +1,7 @@
 FROM ruby:3.1.2 AS builder
 RUN apt-get update -qq && apt-get install -y build-essential nodejs
 RUN gem update --system
+RUN npm install -g yarn
 WORKDIR /srv/jekyll
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
