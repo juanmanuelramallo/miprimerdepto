@@ -1,0 +1,105 @@
+---
+layout: default
+---
+
+<div class="mx-2 sm:container sm:mx-auto relative sm:h-[100-vh]">
+  <div class="bg-[url(/assets/images/foto-pasillo-construccion.jpg)] bg-scroll bg-center bg-no-repeat bg-cover h-[85vh] sm:h-[85vh] brightness-50">
+  </div>
+  <div class="h-[85vh] sm:h-[85vh] w-full absolute top-0 left-0 flex flex-col justify-center">
+    <h1 class="text-4xl sm:text-7xl text-white text-center font-serif">Construyendo Tu <span class="font-['Parisienne']" data-js-typer data-js-typer-phrases-value="Casa.,Lugar.,Espacio.,Hogar.,Guapurú.">Casa.</span></h1>
+  </div>
+</div>
+
+<div class="mx-2 sm:container sm:mx-auto" x-data="{ hero: false }" x-intersect.once.threshold.80="hero = true">
+  <div class="text-center py-20">
+    <h1 class="mx-auto text-gray-200 text-6xl sm:text-8xl font-extrabold max-w-4xl"
+      x-show="hero" x-transition.duration.800ms>Tu <span class="font-[Parisienne] text-7xl sm:text-9xl">Casa</span><br>Te Espera</h1>
+
+    <p class="mx-auto text-gray-300 text-xl max-w-2xl mt-10"
+       x-show="hero" x-transition.duration.800ms>
+      Duplex de 2 dormitorios con sala amplia, kitchenette, patio y con baño en cada piso.
+    </p>
+
+    <div class="flex flex-row justify-center mt-10"
+      x-show="hero" x-transition.duration.800ms>
+      <a href="https://wa.me/{{site.data.main.whatsapp_number | escape}}?text={{site.data.main.whatsapp_message | escape}}" target="_blank">
+        <img src="/assets/images/wpp-button.svg" alt="Chatear en Whatsapp">
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="m-2 sm:container sm:mx-auto rounded-md overflow-hidden"
+  x-data="{ images: false }" x-intersect.once.threshold.80="images = true">
+  <div class="bg-[url(/assets/images/aerea1-planta-baja.jpg)] bg-scroll bg-center bg-no-repeat bg-cover h-[35vh] sm:h-[80vh] border-8 border-gray-200 flex flex-col justify-end"
+    x-show="images" x-transition>
+    <p class="text-gray-100 text-sm text-center mb-2">
+    <span class="bg-gray-700/60 p-1 rounded-md">
+      Planta baja desde arriba
+    </span>
+    </p>
+  </div>
+
+  <div class="bg-[url(/assets/images/aerea2-primer-piso.jpg)] bg-scroll bg-center bg-no-repeat bg-cover h-[35vh] sm:h-[80vh] border-r-8 border-l-8 border-gray-200 flex flex-col justify-end"
+    x-show="images" x-transition>
+    <p class="text-gray-100 text-sm text-center mb-2">
+    <span class="bg-gray-700/60 p-1 rounded-md">
+      Planta alta desde arriba
+    </span>
+    </p>
+  </div>
+
+  <div class="bg-[url(/assets/images/aerea3-afuera.jpg)] bg-scroll bg-center bg-no-repeat bg-cover h-[35vh] sm:h-[80vh] border-8 border-gray-200 flex flex-col justify-end"
+    x-show="images" x-transition>
+    <p class="text-gray-100 text-sm text-center mb-2">
+    <span class="bg-gray-700/60 p-1 rounded-md">
+      Vista exterior
+    </span>
+    </p>
+  </div>
+</div>
+
+<div class="m-2 sm:container sm:mx-auto"
+  x-data="{ features: false }" x-intersect.once.threshold.80="features = true">
+  <div class="py-20">
+    <h1 class="text-center mx-auto text-gray-200 text-2xl sm:text-4xl font-extrabold max-w-4xl"
+      x-show="features" x-transition.duration.800ms
+      >Condominio <span class="text-3xl sm:text-5xl font-[Parisienne]">Guapurú</span></h1>
+
+    <ul class="mx-auto text-gray-300 text-xl max-w-xs mt-5 list-disc fill-gray-200 list-inside list-image-[url(/assets/icons/home.svg)] flex flex-col gap-2"
+      x-show="features" x-transition.duration.800ms>
+      <li>2 dormitorios</li>
+      <li>2 baños - uno en cada piso</li>
+      <li>50 m<sup>2</sup> construidos + patio</li>
+      <li>Sala amplia</li>
+      <li>Kitchenette</li>
+      <li>Gas domiciliario</li>
+      <li>Todos los servicios básicos</li>
+      <li>Zona Doble vía La Guardia Km 12</li>
+      <li>Urb. Nueva Esperanza</li>
+      <li>Precio muy accesible</li>
+      <li><span class="bg-blue-500 text-gray-100 py-1 px-2 rounded-md">Oferta limitada de preventa</span></li>
+    </ul>
+  </div>
+</div>
+
+<div class="mx-2 sm:container sm:mx-auto"
+  x-data="{ reserve: false }" x-intersect.once.threshold.80="reserve = true">
+  <div class="text-center py-20">
+    <h1 class="mx-auto text-gray-200 text-6xl sm:text-8xl font-extrabold max-w-4xl"
+      x-show="reserve" x-transition.duration.800ms
+      >¡Reservá ahora!</h1>
+
+    <p class="mx-auto text-gray-300 text-xl max-w-2xl mt-10"
+      x-show="reserve" x-transition.duration.800ms>
+      Entrega pactada. Pre-venta disponible.
+    </p>
+
+    <div class="flex flex-row justify-center mt-10"
+      x-show="reserve" x-transition.duration.800ms>
+      <a href="https://wa.me/{{site.data.main.whatsapp_number | escape}}?text={{site.data.main.whatsapp_message | escape}}" target="_blank">
+        <img src="/assets/images/wpp-button.svg" alt="Chatear en Whatsapp">
+      </a>
+    </div>
+  </div>
+</div>
