@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="mx-2 sm:container sm:mx-auto relative sm:h-[100-vh]">
-  <div class="bg-[url(/assets/images/foto-pasillo-construccion.jpg)] bg-scroll bg-center bg-no-repeat bg-cover h-[85vh] sm:h-[85vh] brightness-50">
+  <div class="bg-[url(/assets/images/foto-pasillo-construccion.jpg)] bg-scroll bg-center bg-no-repeat bg-cover h-[85vh] sm:h-[85vh] brightness-50 rounded">
   </div>
   <div class="h-[85vh] sm:h-[85vh] w-full absolute top-0 left-0 flex flex-col justify-center">
-    <h1 class="text-4xl sm:text-7xl text-white text-center font-serif">Construyendo Tu <span class="font-['Parisienne']" data-js-typer data-js-typer-phrases-value="Casa.,Lugar.,Espacio.,Hogar.,Guapurú.">Casa.</span></h1>
+    <h1 class="text-4xl sm:text-7xl text-white text-center font-serif">Construyendo Tu <br class="sm:hidden"><span class="font-['Parisienne']" data-js-typer data-js-typer-phrases-value="Casa.,Lugar.,Espacio.,Hogar.,Guapurú.">Casa.</span></h1>
   </div>
 </div>
 
@@ -23,7 +23,8 @@ layout: default
     <div class="flex flex-row justify-center mt-10"
       x-show="hero" x-transition.duration.800ms>
       <a href="https://wa.me/{{site.data.main.whatsapp_number | escape}}?text={{site.data.main.whatsapp_message | escape}}" target="_blank">
-        <img src="/assets/images/wpp-button.svg" alt="Chatear en Whatsapp">
+        <img src="/assets/images/wpp-button.svg" alt="Chatear en Whatsapp"
+          class="h-14 transition rounded-2xl hover:ring hover:ring-green-600">
       </a>
     </div>
   </div>
@@ -98,7 +99,8 @@ layout: default
     <div class="flex flex-row justify-center mt-10"
       x-show="reserve" x-transition.duration.800ms>
       <a href="https://wa.me/{{site.data.main.whatsapp_number | escape}}?text={{site.data.main.whatsapp_message | escape}}" target="_blank">
-        <img src="/assets/images/wpp-button.svg" alt="Chatear en Whatsapp">
+        <img src="/assets/images/wpp-button.svg" alt="Chatear en Whatsapp"
+          class="h-14 transition rounded-2xl hover:ring hover:ring-green-600">
       </a>
     </div>
   </div>
