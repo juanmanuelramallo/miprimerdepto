@@ -1,107 +1,271 @@
----
-layout: default
----
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi Primer Depto — Condominio Guapurú</title>
+  <meta name="description" content="Tu primer dúplex con patio propio. Dos dormitorios, dos baños y precio de preventa en Condominio Guapurú." />
+  <style>
+    :root{
+      --ink:#1d1a16;
+      --muted:#736b5f;
+      --paper:#f4efe6;
+      --paper-2:#e8dfcf;
+      --line:rgba(29,26,22,.16);
+      --line-strong:rgba(29,26,22,.42);
+      --accent:#7b4b27;
+      --accent-2:#b9844f;
+      --olive:#5a6148;
+      --white:#fffaf2;
+      --shadow:0 28px 80px rgba(29,26,22,.16);
+      --radius:28px;
+      --max:1180px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:var(--paper);color:var(--ink)}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:
+      linear-gradient(90deg,rgba(29,26,22,.04) 1px,transparent 1px) 0 0/64px 64px,
+      linear-gradient(rgba(29,26,22,.035) 1px,transparent 1px) 0 0/64px 64px,
+      radial-gradient(circle at 82% 8%,rgba(185,132,79,.22),transparent 30vw),
+      radial-gradient(circle at 12% 50%,rgba(90,97,72,.12),transparent 36vw),
+      var(--paper);overflow-x:hidden}
+    body::before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(244,239,230,0) 55%,rgba(244,239,230,.88));z-index:1}
+    a{color:inherit;text-decoration:none}
+    img,video{max-width:100%;display:block}
+    .grain{position:fixed;inset:-60px;opacity:.18;pointer-events:none;z-index:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='256' height='256' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E")}
+    .site{position:relative;z-index:2}
+    .wrap{width:min(var(--max),calc(100% - 32px));margin-inline:auto}
+    .nav{position:sticky;top:0;z-index:20;backdrop-filter:blur(18px);background:rgba(244,239,230,.72);border-bottom:1px solid var(--line)}
+    .nav-inner{height:74px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:flex;align-items:center;gap:12px;font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:720}
+    .brand-mark{width:38px;height:38px;border:1px solid var(--line-strong);display:grid;place-items:center;border-radius:50%;position:relative;background:rgba(255,250,242,.45)}
+    .brand-mark::before,.brand-mark::after{content:"";position:absolute;background:var(--ink)}
+    .brand-mark::before{width:15px;height:1px;transform:rotate(-42deg);top:16px;left:8px}.brand-mark::after{width:15px;height:1px;transform:rotate(42deg);top:16px;right:8px}
+    .nav-links{display:flex;align-items:center;gap:20px;color:var(--muted);font-size:13px}
+    .nav-links a{transition:.25s ease}.nav-links a:hover{color:var(--ink)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid var(--ink);border-radius:999px;padding:13px 18px;background:var(--ink);color:var(--white);font-weight:720;font-size:14px;letter-spacing:.01em;box-shadow:0 12px 30px rgba(29,26,22,.18);transition:transform .28s ease,box-shadow .28s ease,background .28s ease}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 18px 42px rgba(29,26,22,.22)}
+    .btn.ghost{background:transparent;color:var(--ink);box-shadow:none}.btn.ghost:hover{background:rgba(29,26,22,.06)}
+    .hero{min-height:calc(100svh - 74px);display:grid;align-items:center;padding:58px 0 44px}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,500px);gap:42px;align-items:end}
+    .eyebrow{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.22em;font-weight:760;margin-bottom:18px}
+    .eyebrow::before{content:"";width:52px;height:1px;background:var(--line-strong)}
+    .hero h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.07em;line-height:.88;margin:0;font-size:clamp(62px,10vw,142px);max-width:880px}
+    .hero h1 .outline{display:block;color:transparent;-webkit-text-stroke:1.2px rgba(29,26,22,.45);letter-spacing:-.08em}
+    .lead{font-size:clamp(18px,2.1vw,25px);line-height:1.45;color:#3d372f;max-width:680px;margin:28px 0 0}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+    .hero-card{position:relative;align-self:stretch;min-height:620px;border-radius:36px;overflow:hidden;box-shadow:var(--shadow);background:var(--ink);isolation:isolate}
+    .hero-card video{width:100%;height:100%;object-fit:cover;filter:saturate(.88) contrast(1.04)}
+    .hero-card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(29,26,22,.08),rgba(29,26,22,.58));z-index:1}
+    .hero-note{position:absolute;z-index:2;left:22px;right:22px;bottom:22px;color:var(--white);display:grid;gap:14px}
+    .hero-note .plate{display:flex;justify-content:space-between;gap:16px;border:1px solid rgba(255,250,242,.34);background:rgba(29,26,22,.35);backdrop-filter:blur(14px);border-radius:22px;padding:16px}
+    .hero-note b{font-size:28px;font-family:Georgia,"Times New Roman",serif;font-weight:400}.hero-note span{font-size:12px;text-transform:uppercase;letter-spacing:.16em;opacity:.72}
+    .specs{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:42px 0 0;background:rgba(255,250,242,.28)}
+    .spec{padding:22px 18px;border-right:1px solid var(--line)}.spec:last-child{border-right:0}.spec small{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.16em;margin-bottom:9px}.spec strong{font-family:Georgia,"Times New Roman",serif;font-size:28px;font-weight:400;letter-spacing:-.04em}
+    section{padding:110px 0;border-top:1px solid var(--line)}
+    .section-head{display:grid;grid-template-columns:260px 1fr;gap:56px;align-items:start;margin-bottom:44px}
+    .kicker{color:var(--accent);font-size:12px;text-transform:uppercase;letter-spacing:.22em;font-weight:800}.section-head h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(42px,6vw,82px);font-weight:400;line-height:.96;letter-spacing:-.055em;margin:0}.section-head p{font-size:18px;line-height:1.6;color:#514a40;max-width:680px;margin:22px 0 0}
+    .gallery{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:stretch}.gallery-main,.gallery-side{display:grid;gap:18px}.gallery-main{grid-template-rows:1fr}.gallery-side{grid-template-rows:1fr 1fr}.shot{position:relative;overflow:hidden;border-radius:var(--radius);background:#d8cdbb;min-height:280px;box-shadow:0 18px 50px rgba(29,26,22,.08)}.shot.tall{min-height:620px}.shot img{width:100%;height:100%;object-fit:cover;transition:transform 1.1s cubic-bezier(.2,.8,.2,1),filter .8s ease;filter:saturate(.9) contrast(1.02)}.shot:hover img{transform:scale(1.045)}.cap{position:absolute;left:16px;bottom:16px;background:rgba(255,250,242,.74);backdrop-filter:blur(14px);border:1px solid rgba(29,26,22,.12);border-radius:999px;padding:9px 13px;font-size:12px;color:var(--ink)}
+    .plan{display:grid;grid-template-columns:.95fr 1.05fr;gap:22px;align-items:stretch}.plan-card{border:1px solid var(--line);border-radius:var(--radius);background:rgba(255,250,242,.42);padding:28px;position:relative;overflow:hidden}.plan-card::before{content:"";position:absolute;inset:20px;border:1px dashed rgba(29,26,22,.22);border-radius:20px;pointer-events:none}.plan-card h3{font-family:Georgia,"Times New Roman",serif;font-size:38px;letter-spacing:-.04em;font-weight:400;margin:0 0 18px}.plan-list{display:grid;gap:14px;margin:28px 0 0}.plan-item{display:flex;gap:14px;align-items:flex-start;border-top:1px solid var(--line);padding-top:14px}.num{font-family:Georgia,"Times New Roman",serif;color:var(--accent);font-size:24px;min-width:32px}.plan-visual{border-radius:var(--radius);overflow:hidden;background:var(--paper-2);box-shadow:var(--shadow)}.plan-visual img{width:100%;height:100%;object-fit:cover}
+    .info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.info{min-height:250px;border:1px solid var(--line);border-radius:var(--radius);padding:26px;background:rgba(255,250,242,.44);display:flex;flex-direction:column;justify-content:space-between}.info h3{font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weight:400;letter-spacing:-.04em;margin:0}.info p{color:#514a40;line-height:1.55}.info .tag{color:var(--accent);font-size:12px;text-transform:uppercase;letter-spacing:.18em;font-weight:800}
+    .location{display:grid;grid-template-columns:1fr 1fr;gap:20px}.map-card{min-height:440px;border-radius:var(--radius);border:1px solid var(--line);background:linear-gradient(135deg,rgba(90,97,72,.18),rgba(185,132,79,.18)),var(--paper-2);position:relative;overflow:hidden;padding:30px}.map-card::before{content:"";position:absolute;inset:-30%;background:linear-gradient(35deg,transparent 47%,rgba(29,26,22,.12) 48%,rgba(29,26,22,.12) 49%,transparent 50%),linear-gradient(115deg,transparent 58%,rgba(29,26,22,.1) 59%,rgba(29,26,22,.1) 60%,transparent 61%);background-size:130px 130px;animation:mapDrift 18s linear infinite}.pin{position:absolute;left:52%;top:44%;width:16px;height:16px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 14px rgba(123,75,39,.13),0 0 0 28px rgba(123,75,39,.08);animation:pulse 2.4s ease-in-out infinite}.map-card h3{position:relative;font-family:Georgia,"Times New Roman",serif;font-size:52px;font-weight:400;line-height:.98;letter-spacing:-.05em;margin:0}.map-card p{position:absolute;left:30px;right:30px;bottom:28px;color:#514a40;line-height:1.6}.location-list{display:grid;gap:14px}.loc-row{display:grid;grid-template-columns:110px 1fr;gap:18px;padding:20px;border:1px solid var(--line);border-radius:22px;background:rgba(255,250,242,.42)}.loc-row b{color:var(--accent);font-size:12px;text-transform:uppercase;letter-spacing:.18em}.loc-row span{font-size:17px;line-height:1.45}
+    .price{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch}.price-card{border-radius:36px;background:var(--ink);color:var(--white);padding:36px;box-shadow:var(--shadow);position:relative;overflow:hidden}.price-card::after{content:"PREVENTA";position:absolute;right:-20px;top:26px;color:rgba(255,250,242,.08);font-size:88px;font-weight:900;letter-spacing:-.08em}.price-card small{color:rgba(255,250,242,.65);text-transform:uppercase;letter-spacing:.18em;font-size:12px}.price-card strong{display:block;font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(58px,8vw,98px);letter-spacing:-.07em;margin:10px 0}.price-card p{color:rgba(255,250,242,.78);line-height:1.6;max-width:460px}.steps{display:grid;gap:12px}.step{display:grid;grid-template-columns:52px 1fr;gap:16px;align-items:start;border:1px solid var(--line);border-radius:22px;padding:18px;background:rgba(255,250,242,.42)}.step i{font-style:normal;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--paper-2);color:var(--accent);font-family:Georgia,"Times New Roman",serif;font-size:22px}.step b{display:block;margin-bottom:5px}.step span{color:#514a40;line-height:1.5}
+    details{border-top:1px solid var(--line);padding:24px 0}details:last-child{border-bottom:1px solid var(--line)}summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:18px;font-family:Georgia,"Times New Roman",serif;font-size:28px;letter-spacing:-.03em}summary::-webkit-details-marker{display:none}summary::after{content:"+";color:var(--accent);transition:.25s ease}details[open] summary::after{transform:rotate(45deg)}details p{color:#514a40;line-height:1.65;max-width:780px;margin:14px 0 0}
+    .final{padding:100px 0 120px}.final-box{border-radius:42px;background:linear-gradient(135deg,rgba(123,75,39,.92),rgba(29,26,22,.94));color:var(--white);padding:54px;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:end;box-shadow:var(--shadow);position:relative;overflow:hidden}.final-box::before{content:"";position:absolute;inset:22px;border:1px solid rgba(255,250,242,.18);border-radius:30px}.final-box>*{position:relative}.final h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(44px,6.5vw,86px);font-weight:400;line-height:.96;letter-spacing:-.06em;margin:0}.final p{color:rgba(255,250,242,.76);font-size:18px;line-height:1.55;max-width:650px}.final .btn{background:var(--white);color:var(--ink);border-color:var(--white)}
+    .float{position:fixed;right:18px;bottom:18px;z-index:30;padding:14px 18px;background:#1f7a4e;color:white;border-radius:999px;box-shadow:0 16px 45px rgba(31,122,78,.35);font-weight:780}
+    .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.8,.2,1)}.reveal.in{opacity:1;transform:none}.delay-1{transition-delay:.08s}.delay-2{transition-delay:.16s}.delay-3{transition-delay:.24s}
+    @keyframes mapDrift{to{transform:translate3d(130px,0,0)}}@keyframes pulse{50%{transform:scale(1.15)}}
+    @media (max-width:900px){.nav-links a:not(.btn){display:none}.hero-grid,.section-head,.plan,.location,.price,.final-box{grid-template-columns:1fr}.hero-card{min-height:520px;order:-1}.specs{grid-template-columns:repeat(2,1fr)}.spec{border-bottom:1px solid var(--line)}.gallery{grid-template-columns:1fr}.shot.tall{min-height:430px}.info-grid{grid-template-columns:1fr}.final-box{padding:36px 26px}.section-head{gap:18px}.loc-row{grid-template-columns:1fr}.float{left:18px;text-align:center}.nav-inner{height:66px}.hero{min-height:auto;padding-top:24px}section{padding:78px 0}}
+    @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="site">
+    <nav class="nav">
+      <div class="wrap nav-inner">
+        <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"></span><span>Mi Primer Depto</span></a>
+        <div class="nav-links">
+          <a href="#proyecto">Proyecto</a>
+          <a href="#tipologia">Tipología</a>
+          <a href="#ubicacion">Ubicación</a>
+          <a href="#precio">Precio</a>
+          <a class="btn" href="https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%2C%20planos%2C%20precios%20y%20disponibilidad%20de%20Mi%20Primer%20Depto" target="_blank" rel="noreferrer">Recibir dossier</a>
+        </div>
+      </div>
+    </nav>
 
-<div class="mx-2 sm:container sm:mx-auto relative sm:h-[100-vh]">
-  <div class="bg-[url(/assets/images/foto-pasillo-construccion.jpg)] bg-scroll bg-center bg-no-repeat bg-cover h-[85vh] sm:h-[85vh] brightness-50 rounded">
+    <main id="top">
+      <header class="hero wrap">
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow reveal">Condominio Guapurú · Preventa</div>
+            <h1 class="reveal delay-1">Tu primer hogar. <span class="outline">Con patio propio.</span></h1>
+            <p class="lead reveal delay-2">Un dúplex de dos dormitorios en Santa Cruz, con dos plantas, dos baños y patio propio. Más independencia, más aire, más tuyo.</p>
+            <div class="hero-actions reveal delay-3">
+              <a class="btn" href="https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%2C%20planos%2C%20precios%20y%20disponibilidad%20de%20Mi%20Primer%20Depto" target="_blank" rel="noreferrer">Recibir planos y precios</a>
+              <a class="btn ghost" href="#proyecto">Conocer el proyecto</a>
+            </div>
+          </div>
+          <figure class="hero-card reveal delay-1" aria-label="Video de avance de obra">
+            <video src="/assets/images/guapuru/material-arquitecto-video-01.mp4" poster="/assets/images/guapuru/material-arquitecto-video-01-poster.jpg" autoplay muted loop playsinline></video>
+            <figcaption class="hero-note">
+              <div class="plate"><span>Ubicación</span><b>Km 12</b></div>
+              <div class="plate"><span>Producto</span><b>2 dorm · 2 baños</b></div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="specs reveal delay-2" aria-label="Ficha rápida del proyecto">
+          <div class="spec"><small>Preventa desde</small><strong>USD 34.000</strong></div>
+          <div class="spec"><small>Tipología</small><strong>Dúplex</strong></div>
+          <div class="spec"><small>Dormitorios</small><strong>2</strong></div>
+          <div class="spec"><small>Exterior propio</small><strong>Patio</strong></div>
+          <div class="spec"><small>Zona</small><strong>La Guardia</strong></div>
+        </div>
+      </header>
+
+      <section id="proyecto">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="kicker">01 · Proyecto</div>
+            <div>
+              <h2>La tranquilidad de verlo antes de comprar.</h2>
+              <p>Renders, material técnico y avance de obra reunidos en una presentación clara. Para entender el proyecto rápido y consultar con confianza.</p>
+            </div>
+          </div>
+          <div class="gallery">
+            <div class="gallery-main reveal">
+              <figure class="shot tall"><img src="/assets/images/guapuru/material-arquitecto-08.jpg" alt="Vista arquitectónica del proyecto Guapurú"><figcaption class="cap">Vista del conjunto</figcaption></figure>
+            </div>
+            <div class="gallery-side">
+              <figure class="shot reveal delay-1"><img src="/assets/images/guapuru/material-arquitecto-09.jpg" alt="Material arquitectónico del proyecto"><figcaption class="cap">Material del proyecto</figcaption></figure>
+              <figure class="shot reveal delay-2"><img src="/assets/images/guapuru/material-arquitecto-04.jpg" alt="Vista técnica de dúplex"><figcaption class="cap">Detalle arquitectónico</figcaption></figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tipologia">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="kicker">02 · Tipología</div>
+            <div>
+              <h2>Dos plantas. Más independencia. Mejor uso del espacio.</h2>
+              <p>Una tipología simple y eficiente: ambientes bien separados, patio propio y todo lo necesario para una primera vivienda cómoda.</p>
+            </div>
+          </div>
+          <div class="plan">
+            <article class="plan-card reveal">
+              <h3>Todo lo que necesitás. Sin metros desperdiciados.</h3>
+              <p>Pensado para dejar de alquilar, invertir con una entrada accesible o tener una base propia cerca de la ciudad.</p>
+              <div class="plan-list">
+                <div class="plan-item"><span class="num">01</span><span><b>Planta baja:</b> sala amplia, kitchenette, baño y salida directa al patio.</span></div>
+                <div class="plan-item"><span class="num">02</span><span><b>Planta alta:</b> dos dormitorios separados y baño completo.</span></div>
+                <div class="plan-item"><span class="num">03</span><span><b>Servicios:</b> gas domiciliario y servicios básicos previstos para uso diario.</span></div>
+              </div>
+            </article>
+            <figure class="plan-visual reveal delay-1"><img src="/assets/images/guapuru/material-arquitecto-05.jpg" alt="Plano o composición arquitectónica de la tipología dúplex"></figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="kicker">03 · Beneficios</div>
+            <div>
+              <h2>Tres razones para mirarlo en serio.</h2>
+            </div>
+          </div>
+          <div class="info-grid">
+            <article class="info reveal"><span class="tag">Producto</span><h3>Tu propio patio</h3><p>Más aire, más luz y un espacio exterior que se usa todos los días. Un lujo simple, pero decisivo.</p></article>
+            <article class="info reveal delay-1"><span class="tag">Compra</span><h3>Un precio de entrada</h3><p>Una preventa pensada para quienes quieren comprar su primera propiedad sin entrar en precios imposibles.</p></article>
+            <article class="info reveal delay-2"><span class="tag">Confianza</span><h3>Avance visible</h3><p>Video, renders y material técnico disponibles desde el primer contacto. Menos promesa. Más evidencia.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="ubicacion">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="kicker">04 · Ubicación</div>
+            <div>
+              <h2>Más espacio propio. Menos precio de ciudad.</h2>
+              <p>Una zona en crecimiento, con acceso por Doble vía La Guardia y una relación precio-producto difícil de encontrar cerca del centro.</p>
+            </div>
+          </div>
+          <div class="location">
+            <div class="map-card reveal" aria-label="Mapa conceptual de ubicación">
+              <h3>Urb. Nueva Esperanza</h3>
+              <span class="pin" aria-hidden="true"></span>
+              <p>Pedí la ubicación exacta por WhatsApp y recibí el dossier completo del proyecto.</p>
+            </div>
+            <div class="location-list">
+              <div class="loc-row reveal delay-1"><b>Acceso</b><span>Doble vía La Guardia · Km 12 · Santa Cruz.</span></div>
+              <div class="loc-row reveal delay-2"><b>Zona</b><span>Un entorno en expansión para vivir, alquilar o invertir con una entrada accesible.</span></div>
+              <div class="loc-row reveal delay-3"><b>Dossier</b><span>Ubicación exacta, planos, precios y unidades disponibles en un solo envío.</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="precio">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="kicker">05 · Precio y reserva</div>
+            <div>
+              <h2>Entrá temprano. Elegí mejor.</h2>
+              <p>En preventa, las mejores unidades y condiciones suelen estar al principio. Consultar temprano hace diferencia.</p>
+            </div>
+          </div>
+          <div class="price">
+            <article class="price-card reveal">
+              <small>Preventa desde</small>
+              <strong>USD 34.000</strong>
+              <p>Precio sujeto a unidad y disponibilidad. Parqueo opcional. Consultá condiciones de reserva y forma de pago.</p>
+              <a class="btn" href="https://wa.me/59177363153?text=Hola%2C%20quiero%20consultar%20precios%2C%20unidades%20disponibles%20y%20forma%20de%20pago%20de%20Mi%20Primer%20Depto" target="_blank" rel="noreferrer">Ver unidades disponibles</a>
+            </article>
+            <div class="steps">
+              <div class="step reveal delay-1"><i>1</i><span><b>Recibí el dossier</b>Planos, renders, ubicación, video de obra y lista de unidades.</span></div>
+              <div class="step reveal delay-2"><i>2</i><span><b>Elegí tu unidad</b>Compará ubicación interna, patio, parqueo y precio.</span></div>
+              <div class="step reveal delay-3"><i>3</i><span><b>Reservá tu lugar</b>Avanzá con reserva, contrato y modalidad de pago acordada.</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div class="kicker">06 · FAQ</div>
+            <div><h2>Todo claro antes de consultar.</h2></div>
+          </div>
+          <div class="reveal">
+            <details open><summary>¿Qué incluye cada dúplex?</summary><p>Dos dormitorios, dos baños —uno por piso—, sala amplia, kitchenette, patio propio, gas domiciliario y servicios básicos previstos.</p></details>
+            <details><summary>¿Dónde queda?</summary><p>En la zona Doble vía La Guardia, Km 12, Urbanización Nueva Esperanza, Santa Cruz. La ubicación exacta se envía por WhatsApp junto al dossier.</p></details>
+            <details><summary>¿Cuál es el precio?</summary><p>Desde USD 34.000 en preventa, según unidad y disponibilidad. El parqueo se consulta por separado.</p></details>
+            <details><summary>¿Por qué pedir el dossier por WhatsApp?</summary><p>Porque recibís todo junto: planos, renders, video, ubicación, precios y disponibilidad actualizada. Sin formulario largo.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="final">
+        <div class="wrap final-box reveal">
+          <div>
+            <h2>Un dúplex pensado para empezar.</h2>
+            <p>Dos dormitorios, patio propio, obra visible y precio de preventa. Todo lo importante, claro desde el primer vistazo.</p>
+          </div>
+          <a class="btn" href="https://wa.me/59177363153?text=Hola%2C%20quiero%20el%20dossier%20completo%20de%20Mi%20Primer%20Depto" target="_blank" rel="noreferrer">Recibir dossier</a>
+        </div>
+      </section>
+    </main>
   </div>
-  <div class="h-[85vh] sm:h-[85vh] w-full absolute top-0 left-0 flex flex-col justify-center">
-    <h1 class="text-4xl sm:text-7xl text-white text-center font-serif">Construyendo Tu <br class="sm:hidden"><span class="font-['Parisienne']" data-js-typer data-js-typer-phrases-value="Casa.,Lugar.,Espacio.,Hogar.,Guapurú.">Casa.</span></h1>
-  </div>
-</div>
-
-<div class="mx-2 sm:container sm:mx-auto" x-data="{ hero: false }" x-intersect.once.threshold.80="hero = true">
-  <div class="text-center py-20">
-    <h1 class="mx-auto text-gray-200 text-6xl sm:text-8xl font-extrabold max-w-4xl"
-      x-show="hero" x-transition.duration.800ms>Tu <span class="font-[Parisienne] text-7xl sm:text-9xl">Casa</span><br>Te Espera</h1>
-
-    <p class="mx-auto text-gray-300 text-xl max-w-2xl mt-10"
-       x-show="hero" x-transition.duration.800ms>
-      Duplex de 2 dormitorios con sala amplia, kitchenette, patio y con baño en cada piso.
-    </p>
-
-    <div class="flex flex-row justify-center mt-10"
-      x-show="hero" x-transition.duration.800ms>
-      <a href="https://wa.me/{{site.data.main.whatsapp_number | escape}}?text={{site.data.main.whatsapp_message | escape}}" target="_blank">
-        <img src="/assets/images/wpp-button.svg" alt="Chatear en Whatsapp"
-          class="h-14 transition rounded-2xl hover:ring hover:ring-green-600">
-      </a>
-    </div>
-  </div>
-</div>
-
-<div class="m-2 sm:container sm:mx-auto rounded-md overflow-hidden"
-  x-data="{ images: false }" x-intersect.once.threshold.80="images = true">
-  <div class="bg-[url(/assets/images/aerea1-planta-baja.jpg)] bg-scroll bg-center bg-no-repeat bg-cover h-[35vh] sm:h-[80vh] border-8 border-gray-200 flex flex-col justify-end"
-    x-show="images" x-transition>
-    <p class="text-gray-100 text-sm text-center mb-2">
-    <span class="bg-gray-700/60 p-1 rounded-md">
-      Planta baja desde arriba
-    </span>
-    </p>
-  </div>
-
-  <div class="bg-[url(/assets/images/aerea2-primer-piso.jpg)] bg-scroll bg-center bg-no-repeat bg-cover h-[35vh] sm:h-[80vh] border-r-8 border-l-8 border-gray-200 flex flex-col justify-end"
-    x-show="images" x-transition>
-    <p class="text-gray-100 text-sm text-center mb-2">
-    <span class="bg-gray-700/60 p-1 rounded-md">
-      Planta alta desde arriba
-    </span>
-    </p>
-  </div>
-
-  <div class="bg-[url(/assets/images/aerea3-afuera.jpg)] bg-scroll bg-center bg-no-repeat bg-cover h-[35vh] sm:h-[80vh] border-8 border-gray-200 flex flex-col justify-end"
-    x-show="images" x-transition>
-    <p class="text-gray-100 text-sm text-center mb-2">
-    <span class="bg-gray-700/60 p-1 rounded-md">
-      Vista exterior
-    </span>
-    </p>
-  </div>
-</div>
-
-<div class="m-2 sm:container sm:mx-auto"
-  x-data="{ features: false }" x-intersect.once.threshold.80="features = true">
-  <div class="py-20">
-    <h1 class="text-center mx-auto text-gray-200 text-2xl sm:text-4xl font-extrabold max-w-4xl"
-      x-show="features" x-transition.duration.800ms
-      >Condominio <span class="text-3xl sm:text-5xl font-[Parisienne]">Guapurú</span></h1>
-
-    <ul class="mx-auto text-gray-300 text-xl max-w-xs mt-5 list-disc fill-gray-200 list-inside list-image-[url(/assets/icons/home.svg)] flex flex-col gap-2"
-      x-show="features" x-transition.duration.800ms>
-      <li>2 dormitorios</li>
-      <li>2 baños - uno en cada piso</li>
-      <li>50 m<sup>2</sup> construidos + patio</li>
-      <li>Sala amplia</li>
-      <li>Kitchenette</li>
-      <li>Gas domiciliario</li>
-      <li>Todos los servicios básicos</li>
-      <li>Zona Doble vía La Guardia Km 12</li>
-      <li>Urb. Nueva Esperanza</li>
-      <li>Precio muy accesible</li>
-      <li><span class="bg-blue-500 text-gray-100 py-1 px-2 rounded-md">Oferta limitada de preventa</span></li>
-    </ul>
-  </div>
-</div>
-
-<div class="mx-2 sm:container sm:mx-auto"
-  x-data="{ reserve: false }" x-intersect.once.threshold.80="reserve = true">
-  <div class="text-center py-20">
-    <h1 class="mx-auto text-gray-200 text-6xl sm:text-8xl font-extrabold max-w-4xl"
-      x-show="reserve" x-transition.duration.800ms
-      >¡Reservá ahora!</h1>
-
-    <p class="mx-auto text-gray-300 text-xl max-w-2xl mt-10"
-      x-show="reserve" x-transition.duration.800ms>
-      Entrega pactada. Pre-venta disponible.
-    </p>
-
-    <div class="flex flex-row justify-center mt-10"
-      x-show="reserve" x-transition.duration.800ms>
-      <a href="https://wa.me/{{site.data.main.whatsapp_number | escape}}?text={{site.data.main.whatsapp_message | escape}}" target="_blank">
-        <img src="/assets/images/wpp-button.svg" alt="Chatear en Whatsapp"
-          class="h-14 transition rounded-2xl hover:ring hover:ring-green-600">
-      </a>
-    </div>
-  </div>
-</div>
+  <a class="float" href="https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%20de%20Mi%20Primer%20Depto" target="_blank" rel="noreferrer">Recibir dossier</a>
+  <script>
+    const reveal = new IntersectionObserver((entries)=>{
+      for (const entry of entries) if(entry.isIntersecting){ entry.target.classList.add('in'); reveal.unobserve(entry.target); }
+    },{threshold:.14,rootMargin:'0px 0px -8% 0px'});
+    document.querySelectorAll('.reveal').forEach(el=>reveal.observe(el));
+  </script>
+</body>
+</html>
