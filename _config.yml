@@ -23,7 +23,8 @@ email: juanmanuelramallo@hey.com
 description: >- # this means to ignore newlines until "baseurl:"
   Comprá tu primer depto hoy. Duplex de dos dormitorios, sala amplia, kitchenette, dos baños y un patio.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://miprimerdepto.com.bo" # the base hostname & protocol for your site, e.g. http://example.com
+google_tag_id: "G-4KVVTH8BPF"
 twitter_username: ""
 github_username:  ""
 

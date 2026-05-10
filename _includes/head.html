@@ -35,15 +35,16 @@
   <link rel="alternate" type="application/feed+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
   <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.baseurl }}/sitemap.xml" />
 
-  {% if jekyll.environment == "production" && site.env.GOOGLE_TAG_ID.size > 0 %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.env.GOOGLE_TAG_ID }}"></script>
+  {% assign google_tag_id = site.google_tag_id | default: site.env.GOOGLE_TAG_ID %}
+  {% if jekyll.environment == "production" and google_tag_id and google_tag_id != "" %}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ google_tag_id }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', '{{ site.env.GOOGLE_TAG_ID }}');
+      gtag('config', '{{ google_tag_id }}');
     </script>
   {% endif %}
 
