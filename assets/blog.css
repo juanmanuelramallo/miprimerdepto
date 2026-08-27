@@ -1,0 +1,61 @@
+:root{
+  --ink:#1d1a16;
+  --muted:#736b5f;
+  --paper:#f4efe6;
+  --paper-2:#e8dfcf;
+  --line:rgba(29,26,22,.16);
+  --line-strong:rgba(29,26,22,.42);
+  --accent:#7b4b27;
+  --white:#fffaf2;
+  --shadow:0 28px 80px rgba(29,26,22,.16);
+  --radius:28px;
+  --max:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--paper);color:var(--ink)}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:
+  radial-gradient(circle at 82% 8%,rgba(185,132,79,.18),transparent 30vw),
+  radial-gradient(circle at 12% 50%,rgba(90,97,72,.1),transparent 36vw),
+  var(--paper)}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(var(--max),calc(100% - 32px));margin-inline:auto}
+.nav{position:sticky;top:0;z-index:20;backdrop-filter:blur(18px);background:rgba(244,239,230,.72);border-bottom:1px solid var(--line)}
+.nav-inner{height:74px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:12px;font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:720}
+.brand-mark{width:38px;height:38px;border:1px solid var(--line-strong);display:grid;place-items:center;border-radius:50%;position:relative;background:rgba(255,250,242,.45)}
+.brand-mark::before,.brand-mark::after{content:"";position:absolute;background:var(--ink)}
+.brand-mark::before{width:15px;height:1px;transform:rotate(-42deg);top:16px;left:8px}
+.brand-mark::after{width:15px;height:1px;transform:rotate(42deg);top:16px;right:8px}
+.nav-links{display:flex;align-items:center;gap:20px;color:var(--muted);font-size:13px;flex-wrap:wrap}
+.nav-links a{transition:.25s ease}
+.nav-links a:hover,.nav-links a[aria-current="page"]{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid var(--ink);border-radius:999px;padding:13px 18px;background:var(--ink);color:var(--white);font-weight:720;font-size:14px;letter-spacing:.01em;box-shadow:0 12px 30px rgba(29,26,22,.18);transition:transform .28s ease,box-shadow .28s ease}
+.btn:hover{transform:translateY(-2px);box-shadow:0 18px 42px rgba(29,26,22,.22)}
+.page{padding:56px 0 96px}
+.kicker{color:var(--accent);font-size:12px;text-transform:uppercase;letter-spacing:.22em;font-weight:800;margin:0 0 14px}
+article.note, .listing{width:min(720px,100%);margin-inline:auto}
+article.note h1,.listing h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.05em;line-height:.95;margin:0 0 18px;font-size:clamp(40px,6vw,64px)}
+.meta{color:var(--muted);font-size:14px;margin:0 0 32px}
+article.note .lead, article.note > p:first-of-type{font-size:20px;line-height:1.45;color:#3d372f}
+article.note h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.03em;font-size:clamp(26px,3.2vw,34px);margin:40px 0 12px}
+article.note p, .listing p{font-size:17px;line-height:1.6;color:#3d372f}
+article.note p + p{margin-top:14px}
+article.note a{text-decoration:underline;text-underline-offset:3px}
+.faq{margin:48px 0 0;border-top:1px solid var(--line);padding-top:8px}
+.faq h2{margin-top:28px}
+.faq details{border-bottom:1px solid var(--line);padding:14px 0}
+.faq summary{cursor:pointer;font-weight:650;font-size:16px}
+.faq details p{margin:10px 0 0;color:#514a40}
+.cta{margin:48px 0 0;padding:28px;border:1px solid var(--line);border-radius:var(--radius);background:rgba(255,250,242,.5);display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+.cta p{margin:0;max-width:42ch}
+.foot{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-size:13px}
+.foot .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.post-list{list-style:none;padding:0;margin:36px 0 0;display:grid;gap:18px}
+.post-list a{display:block;border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;background:rgba(255,250,242,.44)}
+.post-list a:hover{border-color:var(--line-strong)}
+.post-list h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:28px;letter-spacing:-.03em;margin:0 0 8px}
+.post-list p{margin:0;color:#514a40}
+@media (max-width:820px){
+  .nav-links a:not(.btn){display:none}
+  .nav-inner{height:64px}
+}
