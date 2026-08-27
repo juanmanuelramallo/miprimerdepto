@@ -7,6 +7,8 @@ Mi Primer Depto es la landing del Condominio Guapurú. Unidades dúplex de dos p
 ## Pages
 
 - [Inicio](https://miprimerdepto.com.bo/): proyecto, tipología, ubicación, precio y preguntas frecuentes
+- [Notas](https://miprimerdepto.com.bo/blog/): guías cortas para el primer depto en Santa Cruz
+- [Qué es un dúplex en Santa Cruz](https://miprimerdepto.com.bo/blog/que-es-un-duplex-en-santa-cruz/)
 
 ## FAQ
 
