@@ -49,7 +49,24 @@
       <article class="note">
         <p class="kicker">Notas</p>
         <h1>{{ page.title }}</h1>
-        <p class="meta"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date_label | default: page.date | date: '%Y-%m-%d' }}</time></p>
+        {% assign day = page.date | date: "%d" | plus: 0 %}
+        {% assign month_n = page.date | date: "%m" | plus: 0 %}
+        {% assign year = page.date | date: "%Y" %}
+        {% case month_n %}
+          {% when 1 %}{% assign month = "enero" %}
+          {% when 2 %}{% assign month = "febrero" %}
+          {% when 3 %}{% assign month = "marzo" %}
+          {% when 4 %}{% assign month = "abril" %}
+          {% when 5 %}{% assign month = "mayo" %}
+          {% when 6 %}{% assign month = "junio" %}
+          {% when 7 %}{% assign month = "julio" %}
+          {% when 8 %}{% assign month = "agosto" %}
+          {% when 9 %}{% assign month = "septiembre" %}
+          {% when 10 %}{% assign month = "octubre" %}
+          {% when 11 %}{% assign month = "noviembre" %}
+          {% when 12 %}{% assign month = "diciembre" %}
+        {% endcase %}
+        <p class="meta"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{% if page.date_label %}{{ page.date_label }}{% else %}{{ day }} de {{ month }} de {{ year }}{% endif %}</time></p>
         {{ content }}
         {% if page.faq %}
         <section class="faq" id="faq">
