@@ -1,0 +1,30 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ page.title | escape }} | Mi Primer Depto</title>
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<meta name="description" content="{{ page.description | default: site.description | escape }}" />
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+<meta property="og:locale" content="es_BO" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:site_name" content="Mi Primer Depto" />
+<meta property="og:title" content="{{ page.title | escape }}" />
+<meta property="og:description" content="{{ page.description | default: site.description | escape }}" />
+<meta property="og:image" content="{{ site.url }}/assets/images/guapuru/material-arquitecto-08.jpg" />
+<meta property="og:image:alt" content="Vista arquitectónica del Condominio Guapurú" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title | escape }}" />
+<meta name="twitter:description" content="{{ page.description | default: site.description | escape }}" />
+<meta name="twitter:image" content="{{ site.url }}/assets/images/guapuru/material-arquitecto-08.jpg" />
+{% if page.robots %}<meta name="robots" content="{{ page.robots }}" />{% endif %}
+<link rel="stylesheet" href="/assets/blog.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4KVVTH8BPF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4KVVTH8BPF');
+</script>
