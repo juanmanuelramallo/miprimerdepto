@@ -21,9 +21,12 @@
 title: Mi Primer Depto
 email: juanmanuelramallo@hey.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Comprá tu primer depto hoy. Duplex de dos dormitorios, sala amplia, kitchenette, dos baños y un patio.
+  Dúplex de 2 dormitorios y patio propio en Condominio Guapurú, Doble vía La Guardia Km 12, Santa Cruz. Preventa desde USD 34.000.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://miprimerdepto.com.bo" # the base hostname & protocol for your site, e.g. http://example.com
+lang: es
+locale: es_BO
+logo: /assets/images/apple-touch-icon.png
 google_tag_id: "G-4KVVTH8BPF"
 twitter_username: ""
 github_username:  ""
