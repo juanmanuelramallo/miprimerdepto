@@ -4,8 +4,6 @@ title: Cuánto cuesta un departamento en Santa Cruz en 2026
 description: En 2026, un departamento de 2 dormitorios en Santa Cruz de la Sierra se ofrece, en avisos, entre unos 75 y 125 mil dólares según la zona. Qué te alcanza con 35 mil.
 permalink: /blog/cuanto-cuesta-un-departamento-en-santa-cruz/
 date_label: 28 de agosto de 2026
-robots: noindex, nofollow
-sitemap: false
 faq:
   - q: ¿Cuánto cuesta un departamento en Santa Cruz de la Sierra?
     a: En avisos de agosto de 2026, un departamento de 2 dormitorios sale entre unos 75 y 125 mil dólares según la zona. Un monoambiente puede arrancar cerca de 56 mil. Son precios de oferta, no de escritura.
