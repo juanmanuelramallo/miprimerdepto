@@ -23,13 +23,13 @@ En 2026, un departamento de 2 dormitorios en Santa Cruz de la Sierra se ofrece c
 
 Google te tira InfoCasas. Torres de Equipetrol y 2º o 3º anillo. Departamentos de 2 dormitorios en el centro, 95 a 125 mil. En zona norte, un monoambiente de preventa puede arrancar cerca de 56 mil. El de 2 dormitorios de la misma torre, 125 mil. No es el mismo producto.
 
-TuLugar, con 247 departamentos monitoreados en el municipio en agosto de 2026, pone la mediana de todos los deptos en 75 mil. Ese número baja porque entran muchos de 1 dormitorio (mediana 57 mil) y monoambientes (72 mil). Si necesitás dos dormitorios, la mediana sube a 112 mil. Son precios de oferta. El tipo de cambio de la ficha (oficial o paralelo) cambia lo que terminás pagando.
+[TuLugar](https://tulugar.com/es/mercado/bolivia/municipio-santa-cruz-de-la-sierra-4511527){:target="_blank" rel="noopener"}, con 247 departamentos monitoreados en el municipio en agosto de 2026, pone la mediana de todos los deptos en 75 mil. Ese número baja porque entran muchos de 1 dormitorio (mediana 57 mil) y monoambientes (72 mil). Si necesitás dos dormitorios, la mediana sube a 112 mil. Son precios de oferta. El tipo de cambio de la ficha (oficial o paralelo) cambia lo que terminás pagando.
 
 ## Qué te alcanza con 35 mil dólares
 
 Con 35 mil no compras el 2 dormitorios de Equipetrol. Comprás otra cosa.
 
-AEVivienda publica departamentos sociales entre 17.529 y 34 mil dólares (abril 2026). Hay que no tener vivienda ni terreno, no haber sido beneficiado antes, y calificar para crédito hipotecario. En Santa Cruz están en Alto de Cotoca, Patujú (Satélite Norte) y urbanización Papa Francisco, carretera a Warnes. Es un programa del Estado, no una preventa privada.
+[AEVivienda](https://eldeber.com.bo/economia/aevivienda-oferta-departamentos-sociales-us-17-529-santa-cruz-cochabamba_1777229499){:target="_blank" rel="noopener"} publica departamentos sociales entre 17.529 y 34 mil dólares (abril 2026). Hay que no tener vivienda ni terreno, no haber sido beneficiado antes, y calificar para crédito hipotecario. En Santa Cruz están en Alto de Cotoca, Patujú (Satélite Norte) y urbanización Papa Francisco, carretera a Warnes. Es un programa del Estado, no una preventa privada.
 
 Con ese mismo techo, un dúplex de primer techo en preventa puede arrancar en 34 mil: dos plantas, dos dormitorios, dos baños y patio propio. No es un monoambiente. No es AEVivienda. Queda más lejos que el 3º anillo. El Condominio Guapurú, en la Doble vía La Guardia km 12, es ese producto.
 
