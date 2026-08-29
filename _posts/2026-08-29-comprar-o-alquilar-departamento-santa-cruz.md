@@ -3,9 +3,7 @@ layout: post
 title: Conviene comprar o alquilar un departamento en Santa Cruz
 description: Si estás alquilando un 2 dormitorios en torre y podés entrar a una preventa chica, el alquiler no te acerca al depto. Cuándo sí comprar y cuándo seguir alquilando en Santa Cruz de la Sierra.
 permalink: /blog/comprar-o-alquilar-departamento-santa-cruz/
-date_label: 4 de septiembre de 2026
-robots: noindex, nofollow
-sitemap: false
+date_label: 29 de agosto de 2026
 faq:
   - q: ¿Conviene comprar o alquilar un departamento en Santa Cruz?
     a: Si el trabajo está más o menos firme y podés entrar a una preventa chica, el alquiler de un 2 dormitorios no te acerca al depto. Si necesitás 2º o 3º anillo sí o sí, o la plata no está, alquilar sigue siendo más honesto.
