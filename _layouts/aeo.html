@@ -1,0 +1,224 @@
+---
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AEO · Mi Primer Depto</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Monitor interno de citas y menciones." />
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+  <style>
+    :root{
+      --ink:#1d1a16;
+      --muted:#736b5f;
+      --paper:#f4efe6;
+      --paper-2:#e8dfcf;
+      --line:rgba(29,26,22,.16);
+      --line-strong:rgba(29,26,22,.42);
+      --accent:#7b4b27;
+      --white:#fffaf2;
+      --ok:#2f6b3a;
+      --no:#8a3a2a;
+      --radius:20px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,sans-serif;
+      background:
+        radial-gradient(circle at 82% 8%,rgba(185,132,79,.18),transparent 30vw),
+        radial-gradient(circle at 12% 50%,rgba(90,97,72,.1),transparent 36vw),
+        var(--paper);
+      color:var(--ink);
+    }
+    .wrap{width:min(1100px, calc(100% - 32px)); margin: 28px auto 72px}
+    .kicker{color:var(--accent);font-size:12px;text-transform:uppercase;letter-spacing:.22em;font-weight:800;margin:0 0 10px}
+    h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.04em;font-size:clamp(36px,5vw,56px);margin:0 0 8px;line-height:.95}
+    .sub{color:var(--muted);margin:0 0 28px;font-size:15px}
+    .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:0 0 28px}
+    .kpi{background:rgba(255,250,242,.55);border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 16px}
+    .kpi .label{font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);font-weight:700}
+    .kpi .val{font-family:Georgia,serif;font-size:40px;letter-spacing:-.04em;margin-top:8px;line-height:1}
+    .kpi .hint{font-size:12px;color:var(--muted);margin-top:8px}
+    h2{font-family:Georgia,serif;font-weight:400;font-size:26px;margin:8px 0 14px}
+    .panel{background:rgba(255,250,242,.44);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:0 0 18px}
+    .bars{display:flex;align-items:flex-end;gap:10px;height:160px;padding-top:8px}
+    .bar-col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px;min-width:0}
+    .bar-pair{display:flex;align-items:flex-end;gap:3px;height:130px;width:100%;justify-content:center}
+    .bar{width:12px;border-radius:6px 6px 0 0;min-height:2px}
+    .bar.cite{background:var(--accent)}
+    .bar.ment{background:rgba(29,26,22,.35)}
+    .bar-col span{font-size:10px;color:var(--muted);white-space:nowrap}
+    .legend{display:flex;gap:16px;font-size:12px;color:var(--muted);margin-top:10px}
+    .legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+    .chip{border:1px solid var(--line-strong);background:transparent;border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer;color:var(--ink)}
+    .chip[aria-pressed="true"]{background:var(--ink);color:var(--white)}
+    table{width:100%;border-collapse:collapse;font-size:14px}
+    th{text-align:left;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:8px 8px 10px;border-bottom:1px solid var(--line)}
+    td{padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+    .pill{display:inline-block;border-radius:999px;padding:2px 8px;font-size:12px;font-weight:700}
+    .pill.yes{background:rgba(47,107,58,.12);color:var(--ok)}
+    .pill.no{background:rgba(138,58,42,.1);color:var(--no)}
+    .muted{color:var(--muted)}
+    .prompt{max-width:28ch}
+    .engine{white-space:nowrap}
+    @media (max-width:820px){
+      .kpis{grid-template-columns:1fr 1fr}
+      .prompt{max-width:18ch}
+      .hide-sm{display:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="kicker">Mi Primer Depto · interno</p>
+    <h1>AEO</h1>
+    <p class="sub">Citas y menciones en Google IA y ChatGPT. Orgánico aparte. Actualizado <span id="updated"></span>.</p>
+
+    <div class="kpis">
+      <div class="kpi"><div class="label">Citas · hist.</div><div class="val" id="cite-all">—</div><div class="hint" id="cite-all-n"></div></div>
+      <div class="kpi"><div class="label">Citas · 7d</div><div class="val" id="cite-7">—</div><div class="hint" id="cite-7-n"></div></div>
+      <div class="kpi"><div class="label">Menciones · hist.</div><div class="val" id="ment-all">—</div><div class="hint" id="ment-all-n"></div></div>
+      <div class="kpi"><div class="label">Menciones · 7d</div><div class="val" id="ment-7">—</div><div class="hint" id="ment-7-n"></div></div>
+    </div>
+
+    <div class="panel">
+      <h2>Tasa por día</h2>
+      <div class="bars" id="bars"></div>
+      <div class="legend"><span><i class="bar cite" style="width:10px;height:10px;border-radius:2px"></i>Citas</span><span><i style="display:inline-block;width:10px;height:10px;border-radius:2px;background:rgba(29,26,22,.35);margin-right:6px"></i>Menciones</span></div>
+    </div>
+
+    <div class="panel">
+      <h2>Por motor</h2>
+      <div id="by-engine"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Chequeos</h2>
+      <div class="chips" id="chips"></div>
+      <div style="overflow:auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Motor</th>
+              <th>Prompt</th>
+              <th>Cita</th>
+              <th>Mención</th>
+              <th class="hide-sm">Evidencia</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script>
+    const AEO = {{ site.data.aeo | jsonify }};
+    const AEO_ENGINES = AEO.engines_aeo || ["google_ai_overview","google_ai_mode","chatgpt"];
+    const ENGINE_LABEL = {
+      google_ai_overview: "Google AI Overview",
+      google_ai_mode: "Google modo IA",
+      chatgpt: "ChatGPT",
+      google_organic: "Google orgánico"
+    };
+    const checks = AEO.checks || [];
+    const fmtPct = (n, d) => d ? Math.round((n/d)*100) + "%" : "—";
+    const today = new Date(AEO.updated + "T12:00:00-03:00");
+    const daysAgo = (d, n) => {
+      const x = new Date(d); x.setDate(x.getDate()-n); return x.toISOString().slice(0,10);
+    };
+    const cutoff7 = daysAgo(today, 6);
+    const isAeo = (c) => AEO_ENGINES.includes(c.engine);
+    const aeo = checks.filter(isAeo);
+    const aeo7 = aeo.filter(c => c.date >= cutoff7);
+    const rate = (arr, key) => {
+      const d = arr.length; const n = arr.filter(c => c[key]).length; return {n,d};
+    };
+    const setKpi = (id, r, hintId) => {
+      document.getElementById(id).textContent = fmtPct(r.n, r.d);
+      document.getElementById(hintId).textContent = r.d ? (r.n + " / " + r.d + " chequeos") : "sin chequeos";
+    };
+    document.getElementById("updated").textContent = AEO.updated || "—";
+    setKpi("cite-all", rate(aeo,"cited"), "cite-all-n");
+    setKpi("cite-7", rate(aeo7,"cited"), "cite-7-n");
+    setKpi("ment-all", rate(aeo,"mentioned"), "ment-all-n");
+    setKpi("ment-7", rate(aeo7,"mentioned"), "ment-7-n");
+
+    const byDay = {};
+    aeo.forEach(c => {
+      byDay[c.date] = byDay[c.date] || {d:0, cited:0, mentioned:0};
+      byDay[c.date].d++;
+      if (c.cited) byDay[c.date].cited++;
+      if (c.mentioned) byDay[c.date].mentioned++;
+    });
+    const days = Object.keys(byDay).sort();
+    const bars = document.getElementById("bars");
+    days.forEach(day => {
+      const x = byDay[day];
+      const col = document.createElement("div");
+      col.className = "bar-col";
+      const pair = document.createElement("div");
+      pair.className = "bar-pair";
+      const b1 = document.createElement("div");
+      b1.className = "bar cite";
+      b1.style.height = Math.max(2, (x.cited/x.d)*130) + "px";
+      const b2 = document.createElement("div");
+      b2.className = "bar ment";
+      b2.style.height = Math.max(2, (x.mentioned/x.d)*130) + "px";
+      pair.append(b1,b2);
+      const lab = document.createElement("span");
+      lab.textContent = day.slice(5);
+      col.append(pair, lab);
+      bars.append(col);
+    });
+    if (!days.length) bars.textContent = "Todavía no hay chequeos de IA.";
+
+    const engBox = document.getElementById("by-engine");
+    AEO_ENGINES.concat(["google_organic"]).forEach(eng => {
+      const arr = checks.filter(c => c.engine === eng);
+      if (!arr.length) return;
+      const p = document.createElement("p");
+      p.style.margin = "0 0 8px";
+      if (eng === "google_organic") {
+        const ranked = arr.filter(c => c.organic_rank);
+        p.innerHTML = "<strong>" + ENGINE_LABEL[eng] + "</strong> · " + ranked.length + " / " + arr.length + " en top 20";
+      } else {
+        const c = rate(arr,"cited"); const m = rate(arr,"mentioned");
+        p.innerHTML = "<strong>" + ENGINE_LABEL[eng] + "</strong> · citas " + fmtPct(c.n,c.d) + " · menciones " + fmtPct(m.n,m.d) + " · " + arr.length + " chequeos";
+      }
+      engBox.append(p);
+    });
+
+    let filter = "all";
+    const chips = document.getElementById("chips");
+    const filters = [["all","Todos"],["google_ai_overview","AI Overview"],["google_ai_mode","Modo IA"],["chatgpt","ChatGPT"],["google_organic","Orgánico"]];
+    filters.forEach(([id,label]) => {
+      const b = document.createElement("button");
+      b.className = "chip";
+      b.textContent = label;
+      b.setAttribute("aria-pressed", id === "all" ? "true" : "false");
+      b.onclick = () => { filter = id; [...chips.children].forEach(x => x.setAttribute("aria-pressed","false")); b.setAttribute("aria-pressed","true"); renderRows(); };
+      chips.append(b);
+    });
+
+    const yesno = (v) => '<span class="pill ' + (v ? "yes" : "no") + '">' + (v ? "sí" : "no") + "</span>";
+    function renderRows() {
+      const tbody = document.getElementById("rows");
+      tbody.innerHTML = "";
+      checks.slice().sort((a,b) => b.date.localeCompare(a.date) || a.engine.localeCompare(b.engine)).forEach(c => {
+        if (filter !== "all" && c.engine !== filter) return;
+        const tr = document.createElement("tr");
+        const extra = c.engine === "google_organic" && c.organic_rank ? " · #" + c.organic_rank : "";
+        tr.innerHTML = "<td>" + c.date + "</td><td class='engine'>" + (ENGINE_LABEL[c.engine] || c.engine) + extra + "</td><td class='prompt'>" + c.prompt + "</td><td>" + (c.engine === "google_organic" ? "<span class='muted'>—</span>" : yesno(c.cited)) + "</td><td>" + (c.engine === "google_organic" ? "<span class='muted'>—</span>" : yesno(c.mentioned)) + "</td><td class='hide-sm muted'>" + (c.evidence || "") + "</td>";
+        tbody.append(tr);
+      });
+    }
+    renderRows();
+  </script>
+</body>
+</html>
