@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /aeo/
 
 User-agent: GPTBot
 Allow: /
@@ -23,6 +24,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 # See also /llms.txt for a factual site summary for language models.
-Disallow: /aeo/
-
 Sitemap: https://miprimerdepto.com.bo/sitemap.xml
