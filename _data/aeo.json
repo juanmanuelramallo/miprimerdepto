@@ -1,0 +1,214 @@
+{
+  "site": "https://miprimerdepto.com.bo",
+  "brands": [
+    "miprimerdepto",
+    "mi primer depto",
+    "guapurú",
+    "guapuru"
+  ],
+  "engines_aeo": [
+    "google_ai_overview",
+    "google_ai_mode",
+    "chatgpt"
+  ],
+  "updated": "2026-08-29",
+  "checks": [
+    {
+      "date": "2026-08-26",
+      "engine": "google_ai_overview",
+      "prompt": "qué es un dúplex en Santa Cruz",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [
+        "duplex.com.bo",
+        "roomix"
+      ],
+      "evidence": "AI Overview cita duplex.com.bo/Roomix, no miprimerdepto",
+      "notes": null
+    },
+    {
+      "date": "2026-08-26",
+      "engine": "google_ai_overview",
+      "prompt": "cuánto cuesta un departamento en Santa Cruz de la Sierra",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [
+        "infocasas.com.bo",
+        "century21"
+      ],
+      "evidence": "AI Overview cita InfoCasas/Century 21",
+      "notes": null
+    },
+    {
+      "date": "2026-08-26",
+      "engine": "google_ai_overview",
+      "prompt": "primer departamento Santa Cruz dúplex con patio",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [
+        "infocasas.com.bo",
+        "airbnb",
+        "century21"
+      ],
+      "evidence": "AI Overview cita InfoCasas/Airbnb/Century 21",
+      "notes": null
+    },
+    {
+      "date": "2026-08-26",
+      "engine": "google_organic",
+      "prompt": "qué es un dúplex en Santa Cruz",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [],
+      "evidence": "miprimerdepto.com.bo no visible en el fold",
+      "notes": null
+    },
+    {
+      "date": "2026-08-26",
+      "engine": "google_organic",
+      "prompt": "cuánto cuesta un departamento en Santa Cruz de la Sierra",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [],
+      "evidence": "miprimerdepto.com.bo no visible en el fold",
+      "notes": null
+    },
+    {
+      "date": "2026-08-26",
+      "engine": "google_organic",
+      "prompt": "primer departamento Santa Cruz dúplex con patio",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [],
+      "evidence": "miprimerdepto.com.bo no visible en el fold",
+      "notes": null
+    },
+    {
+      "date": "2026-08-28",
+      "engine": "google_ai_overview",
+      "prompt": "qué es un dúplex en Santa Cruz",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [
+        "duplex.com.bo",
+        "roomix.ai",
+        "facebook.com"
+      ],
+      "evidence": "Hay AI Overview; no cita ni menciona miprimerdepto/Guapurú",
+      "notes": "Google BO hl=es&gl=bo&pws=0"
+    },
+    {
+      "date": "2026-08-28",
+      "engine": "google_ai_overview",
+      "prompt": "cuánto cuesta un departamento en Santa Cruz de la Sierra",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [
+        "infocasas.com.bo",
+        "c21.com.bo"
+      ],
+      "evidence": "Hay AI Overview; no cita ni menciona miprimerdepto/Guapurú",
+      "notes": "Google BO hl=es&gl=bo&pws=0"
+    },
+    {
+      "date": "2026-08-28",
+      "engine": "google_ai_overview",
+      "prompt": "primer departamento Santa Cruz dúplex con patio",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [
+        "infocasas.com.bo",
+        "c21.com.bo"
+      ],
+      "evidence": "Hay AI Overview; no cita ni menciona miprimerdepto/Guapurú",
+      "notes": "Google BO hl=es&gl=bo&pws=0"
+    },
+    {
+      "date": "2026-08-28",
+      "engine": "google_organic",
+      "prompt": "qué es un dúplex en Santa Cruz",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": "https://miprimerdepto.com.bo/blog/que-es-un-duplex-en-santa-cruz/",
+      "organic_rank": 1,
+      "competitors": [],
+      "evidence": "/blog/que-es-un-duplex-en-santa-cruz/ rank #1",
+      "notes": "Google BO hl=es&gl=bo&pws=0"
+    },
+    {
+      "date": "2026-08-28",
+      "engine": "google_organic",
+      "prompt": "cuánto cuesta un departamento en Santa Cruz de la Sierra",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [
+        "infocasas.com.bo",
+        "c21.com.bo"
+      ],
+      "evidence": "No aparece en top 20",
+      "notes": "Google BO hl=es&gl=bo&pws=0"
+    },
+    {
+      "date": "2026-08-28",
+      "engine": "google_organic",
+      "prompt": "primer departamento Santa Cruz dúplex con patio",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": "https://miprimerdepto.com.bo/blog/que-es-un-duplex-en-santa-cruz/",
+      "organic_rank": 3,
+      "competitors": [],
+      "evidence": "/blog/que-es-un-duplex-en-santa-cruz/ rank #3",
+      "notes": "Google BO hl=es&gl=bo&pws=0"
+    },
+    {
+      "date": "2026-08-28",
+      "engine": "chatgpt",
+      "prompt": "¿Qué es un dúplex en Santa Cruz de la Sierra?",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [
+        "archdaily.com",
+        "wordreference.com"
+      ],
+      "evidence": "Invitado: cita ArchDaily y WordReference",
+      "notes": "Guest incognito"
+    },
+    {
+      "date": "2026-08-28",
+      "engine": "chatgpt",
+      "prompt": "¿Cuánto cuesta un departamento en Santa Cruz de la Sierra?",
+      "cited": false,
+      "mentioned": false,
+      "cited_url": null,
+      "organic_rank": null,
+      "competitors": [
+        "tulugar.com.py",
+        "boliviaprop.com"
+      ],
+      "evidence": "Invitado: cita TuLugar y Bolivia Prop",
+      "notes": "Guest incognito; tercer prompt no se pudo (Sign in to continue)"
+    }
+  ]
+}
