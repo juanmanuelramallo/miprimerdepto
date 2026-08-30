@@ -29,7 +29,7 @@ La Guardia no es un barrio de Santa Cruz de la Sierra. Es municipio. Queda sobre
 
 ## Oeste no es La Guardia
 
-Google y InfoCasas etiquetan “Doble vía La Guardia” a torres de 5º a 7º anillo. Ventura Mall Sur, Radial 17½. Eso es oeste. Ciudad. Precio de torre.
+Google e InfoCasas etiquetan “Doble vía La Guardia” a torres de 5º a 7º anillo. Ventura Mall Sur, Radial 17½. Eso es oeste. Ciudad. Precio de torre.
 
 Km 12 no aparece en esa etiqueta. Ahí el producto que te alcanza no es el 2 dormitorios de 80 mil. Es un [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) de dos plantas, patio propio, preventa más chica.
 
