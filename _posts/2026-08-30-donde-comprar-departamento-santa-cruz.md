@@ -1,52 +1,50 @@
 ---
 layout: post
 title: "Dónde comprar un departamento en Santa Cruz: oeste, sur o La Guardia"
-description: "Si no te alcanza Equipetrol, el primer departamento en Santa Cruz no es norte o nada. Es zona oeste, zona sur o La Guardia. No son el mismo mapa."
+description: "Si no te da Equipetrol, el primer departamento no es norte o nada. Es oeste, sur o La Guardia. No es el mismo lugar."
 permalink: /blog/donde-comprar-departamento-santa-cruz/
 date_label: 30 de agosto de 2026
 robots: noindex, nofollow
 sitemap: false
 faq:
   - q: ¿Dónde conviene comprar un departamento en Santa Cruz si no me alcanza Equipetrol?
-    a: El recorte real es zona oeste, zona sur o La Guardia. Oeste es adentro de los anillos. Sur es Hamacas y hacia Palmasola. La Guardia es otro municipio, sobre la Doble vía, km 12.
+    a: Oeste, sur o La Guardia. Oeste es Las Palmas y de ahí hacia afuera, todavía en los anillos. Sur es Hamacas y hacia Palmasola. La Guardia es otro municipio, km 12.
   - q: ¿Zona oeste y La Guardia son lo mismo?
-    a: No. Oeste es Las Palmas y las torres de 5º a 7º anillo sobre la Doble vía. La Guardia es otro municipio. Misma avenida, otro producto.
+    a: No. Oeste es Las Palmas y las torres del 5to al 7mo anillo sobre la Doble vía a La Guardia. La Guardia es otro municipio. Misma avenida, otro depto.
   - q: ¿Zona oeste, zona sur o La Guardia para una pareja que trabaja en la ciudad?
-    a: Oeste si querés quedarte adentro de los anillos y te da para una torre. Sur si priorizás Hamacas o ir hacia Palmasola. La Guardia si el presupuesto está más cerca de una preventa chica y te importa un patio.
+    a: Oeste si querés quedarte en los anillos y te da para una torre. Sur si estás en Hamacas o hacia Palmasola. La Guardia si el presupuesto está más cerca de una preventa chica y te importa un patio.
   - q: ¿Vale la pena vivir en la Doble vía a La Guardia?
-    a: Depende de qué tramo. 5º a 7º anillo es ciudad. Km 12, Urbanización Nueva Esperanza, es La Guardia. No es el mismo depto ni el mismo precio.
+    a: Depende del tramo. 5to a 7mo anillo es ciudad. Km 12, Urbanización Nueva Esperanza, es La Guardia. No es el mismo depto ni el mismo precio.
 ---
 
-Si no te alcanza Equipetrol ni zona norte, el primer departamento en Santa Cruz no es “me quedo alquilando”. El recorte es zona oeste, zona sur o La Guardia. No son el mismo mapa. Oeste es adentro de los anillos. Sur es Hamacas y hacia Palmasola. La Guardia es otro municipio, km 12, Nueva Esperanza.
-
-## Tres mapas, no tres barrios
-
-Zona oeste, en el habla de Santa Cruz, es Las Palmas y el tramo de la Doble vía a La Guardia que sigue adentro de la ciudad. 5º a 7º anillo. Torres. En avisos, un 2 dormitorios de ese tramo anda cerca de 75 a 80 mil dólares. Eso está en [cuánto cuesta un departamento en Santa Cruz](/blog/cuanto-cuesta-un-departamento-en-santa-cruz/).
-
-Zona sur es otro recorte. Hamacas, el 1º y 2º anillo de ese lado, Palmasola. Hay depto cerca de todo y hay depto más afuera. No es un solo precio. Si el aviso dice “sur”, fijate el anillo. No es lo mismo.
-
-La Guardia no es un barrio de Santa Cruz de la Sierra. Es municipio. Queda sobre la misma Doble vía, más adelante. Km 12. Urbanización Nueva Esperanza. Cotoca y Warnes son otras salidas. No las mezcles con esta.
+Si no te da Equipetrol ni el norte, el primer departamento no es quedarte alquilando. Es oeste, sur o La Guardia. No es el mismo lugar. Oeste es Las Palmas y de ahí hacia afuera, todavía en los anillos. Sur es Hamacas y hacia Palmasola. La Guardia ya es otro municipio: km 12, Nueva Esperanza.
 
 ## Oeste no es La Guardia
 
-Google e InfoCasas etiquetan “Doble vía La Guardia” a torres de 5º a 7º anillo. Ventura Mall Sur, Radial 17½. Eso es oeste. Ciudad. Precio de torre.
+Oeste es Las Palmas. Y de Las Palmas hacia afuera, por la Doble vía a La Guardia, hasta el 5to y el 7mo anillo. Torres. En avisos, un 2 dormitorios de ese tramo anda cerca de 75 a 80 mil dólares. Eso está en [cuánto cuesta un departamento en Santa Cruz](/blog/cuanto-cuesta-un-departamento-en-santa-cruz/).
 
-Km 12 no aparece en esa etiqueta. Ahí el producto que te alcanza no es el 2 dormitorios de 80 mil. Es un [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) de dos plantas, patio propio, preventa más chica.
+Google e InfoCasas ponen “Doble vía La Guardia” a esas torres. Radial 17½, por Ventura Mall Sur. Eso es ciudad.
 
-Misma avenida. Otro municipio. Otro depto. El Condominio Guapurú es ese segundo mapa: preventa desde 34 mil, dos dormitorios, dos baños, kitchenette y patio. No arregla la distancia. Arregla que oeste y La Guardia dejen de ser la misma ficha.
+Km 12 no está en esa etiqueta. Ahí lo que te alcanza no es el depto de 80 mil. Es un [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) de dos plantas, con patio, en una preventa más chica.
 
-## Cuándo el sur, cuándo La Guardia
+Misma avenida. Más adelante. Otro municipio. El Condominio Guapurú es eso: preventa desde 34 mil, dos dormitorios, dos baños, kitchenette y patio. No arregla la distancia. Arregla que no te vendan km 12 como si fuera Las Palmas.
 
-El sur gana si querés quedarte en Hamacas o cerca del 1º y 2º anillo de ese lado, y te da el precio de ese recorte. No es “más barato” por ser sur. Es otro uso.
+## El sur
 
-La Guardia gana si el presupuesto está más cerca de una preventa chica que de Equipetrol, te importa un patio más que un gym, y aceptás salir de los anillos. Para una pareja que trabaja en la ciudad, es el trade: menos anillo, más planta.
+Hamacas. El 1er y 2do anillo de ese lado. Palmasola. Hay depto al lado de todo y hay depto más afuera. Si el aviso dice sur, mirá el anillo.
 
-Oeste gana si querés seguir adentro y te da la torre de 75 a 80 mil. Si no te da, no es que “La Guardia sea el oeste, más lejos”. Es otro producto.
+El sur no es “más barato”. Es otro uso. Gana si querés Hamacas o quedarte cerca del 1er y 2do, y te da ese precio.
+
+## Cuándo sí La Guardia
+
+Si el presupuesto está más cerca de una preventa chica que de Equipetrol, te importa un patio más que un gym, y aceptás salir de los anillos. Para una pareja que trabaja en la ciudad: menos anillo, más planta.
+
+Oeste gana si querés seguir adentro y te da la torre de 75 a 80 mil. Si no te da, La Guardia no es “el oeste, más lejos”. Es otro depto.
 
 ## Qué mirar en el aviso
 
-El anillo. Si dice Doble vía La Guardia, pedí km. 5º a 7º es oeste. Km 12 es La Guardia.
+El anillo. Si dice Doble vía a La Guardia, pedí el km. 5to a 7mo es oeste. Km 12 es La Guardia.
 
-Patio o palier. Dos plantas o un piso. Parqueo aparte. Tipo de cambio de la ficha.
+Patio o un solo piso. Dos plantas o un piso. Parqueo aparte. Tipo de cambio del aviso.
 
-No compares un dúplex de 34 mil con una torre de 80 mil como si fueran la misma zona, recortada. Son mapas distintos. Pedí el dossier y mirá en cuál estás parado.
+No compares un dúplex de 34 mil con una torre de 80 mil como si fueran la misma zona, más lejos. Pedí el dossier y mirá en cuál estás parado.
