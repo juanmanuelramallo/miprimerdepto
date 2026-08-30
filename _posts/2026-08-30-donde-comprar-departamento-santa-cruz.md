@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Dónde comprar un departamento en Santa Cruz: oeste, sur o La Guardia
-description: Si no te alcanza Equipetrol, el primer departamento en Santa Cruz no es “norte o nada”. Es zona oeste, zona sur o La Guardia. No son el mismo mapa.
+title: "Dónde comprar un departamento en Santa Cruz: oeste, sur o La Guardia"
+description: "Si no te alcanza Equipetrol, el primer departamento en Santa Cruz no es norte o nada. Es zona oeste, zona sur o La Guardia. No son el mismo mapa."
 permalink: /blog/donde-comprar-departamento-santa-cruz/
 date_label: 30 de agosto de 2026
 robots: noindex, nofollow
