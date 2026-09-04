@@ -23,13 +23,13 @@ En Santa Cruz, “condominio” aparece en la mitad de los avisos. No te dice el
 
 Un condominio es un conjunto. Alguien cobra expensas. Hay seguridad compartida. A veces pileta, churrasquera o salón. Vos comprás una unidad. El resto es común.
 
-Por eso Trends muestra “condominio santa cruz” con volumen: la gente busca el marco. El error es parar ahí. Tenés que saber qué unidad estás mirando.
+Por eso se busca “condominio santa cruz”: la gente busca el marco. El error es parar ahí. Tenés que saber qué unidad estás mirando.
 
 ## Qué no es
 
 No es sinónimo de torre. Equipetrol está lleno de torres en condominio: gym, pileta, depto en un piso. Eso es un producto.
 
-No es sinónimo de casa. Urubó y otros lados venden casas en condominio cerrado: terreno, jardín, otro presupuesto.
+No es sinónimo de casa. En Urubó y otros lados venden casas en condominio cerrado: terreno, jardín, otro presupuesto.
 
 No es sinónimo de dúplex. Un dúplex puede estar en condominio y seguir siendo dos plantas con patio propio. El condominio no te regala el patio. La tipología sí.
 
@@ -37,12 +37,14 @@ No es sinónimo de dúplex. Un dúplex puede estar en condominio y seguir siendo
 
 Si el aviso dice solo “condominio”, pedí el plano. ¿Un piso? ¿Dos plantas? ¿Patio o balcón? ¿Parqueo incluido?
 
-Las torres del 5to al 7mo anillo sobre la Doble vía a La Guardia suelen ser departamento en un piso, con expensas de edificio. Eso está en [cuánto cuesta un departamento en Santa Cruz](/blog/cuanto-cuesta-un-departamento-en-santa-cruz/).
+Las torres del 5to al 7mo anillo sobre la Doble vía a La Guardia suelen ser departamento en un piso, con expensas de edificio. En avisos, un 2 dormitorios de ese tramo anda cerca de 75 a 80 mil. Eso está en [cuánto cuesta un departamento en Santa Cruz](/blog/cuanto-cuesta-un-departamento-en-santa-cruz/).
 
 Un dúplex en condominio, más afuera, cambia el uso: menos anillo, más planta. El Condominio Guapurú es eso: preventa desde 34 mil, dos dormitorios, dos baños, kitchenette y patio. No es una torre de Equipetrol con otro nombre.
 
 ## Qué mirar en el aviso
 
-Expensas: monto y qué incluyen. Parqueo: si va aparte. Tipo de cambio del precio. Y el producto: torre, casa o dúplex.
+Expensas: monto y qué incluyen. Seguridad, jardín, pileta, agua de áreas comunes. Si el número del render no coincide con el de la administración, pedí el actual.
+
+Parqueo: si va aparte. Tipo de cambio del precio. Y el producto: torre, casa o dúplex.
 
 No compares un dúplex de preventa con un 2 dormitorios de torre porque los dos digan condominio. Pedí el dossier y mirá en qué unidad estás parado.
