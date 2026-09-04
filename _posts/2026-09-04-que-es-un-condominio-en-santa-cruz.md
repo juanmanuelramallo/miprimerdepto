@@ -4,8 +4,6 @@ title: "Qué es un condominio en Santa Cruz (y qué no es)"
 description: "En Santa Cruz un condominio no es lo mismo que una torre. Hay cerrados con casas, hay torres con expensas, y hay dúplex con patio. Fijate qué estás comprando."
 permalink: /blog/que-es-un-condominio-en-santa-cruz/
 date_label: 4 de septiembre de 2026
-robots: "noindex, nofollow"
-sitemap: false
 faq:
   - q: "¿Qué es un condominio en Santa Cruz?"
     a: "Un conjunto con administración común y expensas. Puede ser de casas, de departamentos en torre, o de dúplex con patio. El aviso tiene que decir el producto, no solo condominio."
