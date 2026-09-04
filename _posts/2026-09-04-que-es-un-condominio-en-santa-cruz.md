@@ -4,26 +4,26 @@ title: "Qué es un condominio en Santa Cruz (y qué no es)"
 description: "En Santa Cruz un condominio no es lo mismo que una torre. Hay cerrados con casas, hay torres con expensas, y hay dúplex con patio. Fijate qué estás comprando."
 permalink: /blog/que-es-un-condominio-en-santa-cruz/
 date_label: 4 de septiembre de 2026
-robots: noindex, nofollow
+robots: "noindex, nofollow"
 sitemap: false
 faq:
-  - q: ¿Qué es un condominio en Santa Cruz?
-    a: Un conjunto con administración común y expensas. Puede ser de casas, de departamentos en torre, o de dúplex con patio. El aviso tiene que decir el producto, no solo “condominio”.
-  - q: ¿Condominio y torre son lo mismo?
-    a: No. La torre es un edificio de departamentos. El condominio es el marco: seguridad, áreas comunes, expensas. Adentro puede haber torre, casa o dúplex.
-  - q: ¿Qué mirar en las expensas de un condominio?
-    a: Qué cubren (seguridad, pileta, jardín, agua de áreas comunes) y si el parqueo va aparte. Pedí el monto actual, no el del render.
-  - q: ¿Conviene un condominio para el primer departamento?
-    a: Sí si querés reglas claras y no administrar el portón vos. No si el producto adentro no te sirve: una torre sin patio no se arregla por decir condominio.
+  - q: "¿Qué es un condominio en Santa Cruz?"
+    a: "Un conjunto con administración común y expensas. Puede ser de casas, de departamentos en torre, o de dúplex con patio. El aviso tiene que decir el producto, no solo condominio."
+  - q: "¿Condominio y torre son lo mismo?"
+    a: "No. La torre es un edificio de departamentos. El condominio es el marco: seguridad, áreas comunes, expensas. Adentro puede haber torre, casa o dúplex."
+  - q: "¿Qué mirar en las expensas de un condominio?"
+    a: "Qué cubren (seguridad, pileta, jardín, agua de áreas comunes) y si el parqueo va aparte. Pedí el monto actual, no el del render."
+  - q: "¿Conviene un condominio para el primer departamento?"
+    a: "Sí si querés reglas claras y no administrar el portón vos. No si el producto adentro no te sirve: una torre sin patio no se arregla por decir condominio."
 ---
 
-En Santa Cruz, “condominio” aparece en la mitad de los avisos. No te dice el producto. Dice que hay administración, reglas y expensas. Adentro puede haber casas, departamentos en torre, o un [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) de dos plantas con patio.
+En Santa Cruz, "condominio" aparece en la mitad de los avisos. No te dice el producto. Dice que hay administración, reglas y expensas. Adentro puede haber casas, departamentos en torre, o un [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) de dos plantas con patio.
 
 ## Qué sí es
 
 Un condominio es un conjunto. Alguien cobra expensas. Hay seguridad compartida. A veces pileta, churrasquera o salón. Vos comprás una unidad. El resto es común.
 
-Por eso se busca “condominio santa cruz”: la gente busca el marco. El error es parar ahí. Tenés que saber qué unidad estás mirando.
+Por eso se busca "condominio santa cruz": la gente busca el marco. El error es parar ahí. Tenés que saber qué unidad estás mirando.
 
 ## Qué no es
 
@@ -35,7 +35,7 @@ No es sinónimo de dúplex. Un dúplex puede estar en condominio y seguir siendo
 
 ## Torre, casa o dúplex
 
-Si el aviso dice solo “condominio”, pedí el plano. ¿Un piso? ¿Dos plantas? ¿Patio o balcón? ¿Parqueo incluido?
+Si el aviso dice solo "condominio", pedí el plano. ¿Un piso? ¿Dos plantas? ¿Patio o balcón? ¿Parqueo incluido?
 
 Las torres del 5to al 7mo anillo sobre la Doble vía a La Guardia suelen ser departamento en un piso, con expensas de edificio. En avisos, un 2 dormitorios de ese tramo anda cerca de 75 a 80 mil. Eso está en [cuánto cuesta un departamento en Santa Cruz](/blog/cuanto-cuesta-un-departamento-en-santa-cruz/).
 
