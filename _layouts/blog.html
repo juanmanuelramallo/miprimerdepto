@@ -3,27 +3,135 @@
 <head>
   {% include blog-head.html %}
 </head>
-<body>
+<body class="blog-guia">
   {% include blog-nav.html %}
-  <main class="page">
+  {% assign p_duplex = nil %}
+  {% assign p_precio = nil %}
+  {% assign p_compra = nil %}
+  {% assign p_donde = nil %}
+  {% assign p_condo = nil %}
+  {% for post in site.posts %}
+    {% if post.url == '/blog/que-es-un-duplex-en-santa-cruz/' %}{% assign p_duplex = post %}{% endif %}
+    {% if post.url == '/blog/cuanto-cuesta-un-departamento-en-santa-cruz/' %}{% assign p_precio = post %}{% endif %}
+    {% if post.url == '/blog/comprar-o-alquilar-departamento-santa-cruz/' %}{% assign p_compra = post %}{% endif %}
+    {% if post.url == '/blog/donde-comprar-departamento-santa-cruz/' %}{% assign p_donde = post %}{% endif %}
+    {% if post.url == '/blog/que-es-un-condominio-en-santa-cruz/' %}{% assign p_condo = post %}{% endif %}
+  {% endfor %}
+  <main class="page guia">
     <div class="wrap">
-      <div class="listing">
-        <p class="kicker">Notas</p>
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-        <ul class="post-list">
-          {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}">
-              <h2>{{ post.title }}</h2>
-              <p>{{ post.description }}</p>
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
+      <header class="guia-hero">
+        <div>
+          <p class="kicker">Guía</p>
+          <h1>{{ page.title }}</h1>
+          <div class="guia-lead">{{ content }}</div>
+        </div>
+        <nav class="guia-path" aria-label="Tramos">
+          <a href="#tipologia">01 Tipología</a>
+          <a href="#plata">02 Plata</a>
+          <a href="#zona">03 Zona</a>
+        </nav>
+      </header>
+
+      <section class="rail" id="tipologia">
+        <div class="rail-head">
+          <div>
+            <div class="step">01 · Tipología</div>
+            <h2>Qué es un dúplex</h2>
+          </div>
+          <p class="hint">Dos plantas, patio propio. No torre, no casa suelta.</p>
+        </div>
+        <div class="rail-cards one">
+          {% if p_duplex %}
+          <a class="card" href="{{ p_duplex.url }}">
+            <span class="tag">Producto</span>
+            <h3>{{ p_duplex.title }}</h3>
+            <p>{{ p_duplex.description }}</p>
+            <span class="meta">{% if p_duplex.date_label %}{{ p_duplex.date_label }}{% else %}{{ p_duplex.date | date: "%d/%m/%Y" }}{% endif %}</span>
+          </a>
+          {% endif %}
+        </div>
+      </section>
+
+      <section class="rail" id="plata">
+        <div class="rail-head">
+          <div>
+            <div class="step">02 · Plata</div>
+            <h2>Precios y comprar o alquilar</h2>
+          </div>
+          <p class="hint">Qué alcanza cerca de 35 mil y cuándo sí comprar.</p>
+        </div>
+        <div class="rail-cards">
+          {% if p_precio %}
+          <a class="card" href="{{ p_precio.url }}">
+            <span class="tag">Números</span>
+            <h3>{{ p_precio.title }}</h3>
+            <p>{{ p_precio.description }}</p>
+            <span class="meta">{% if p_precio.date_label %}{{ p_precio.date_label }}{% else %}{{ p_precio.date | date: "%d/%m/%Y" }}{% endif %}</span>
+          </a>
+          {% endif %}
+          {% if p_compra %}
+          <a class="card" href="{{ p_compra.url }}">
+            <span class="tag">Decisión</span>
+            <h3>{{ p_compra.title }}</h3>
+            <p>{{ p_compra.description }}</p>
+            <span class="meta">{% if p_compra.date_label %}{{ p_compra.date_label }}{% else %}{{ p_compra.date | date: "%d/%m/%Y" }}{% endif %}</span>
+          </a>
+          {% endif %}
+        </div>
+      </section>
+
+      <section class="rail" id="zona">
+        <div class="rail-head">
+          <div>
+            <div class="step">03 · Zona</div>
+            <h2>Dónde comprar y qué es condominio</h2>
+          </div>
+          <p class="hint">Oeste, sur o La Guardia. Y qué tipo de conjunto es.</p>
+        </div>
+        <div class="rail-cards">
+          {% if p_donde %}
+          <a class="card" href="{{ p_donde.url }}">
+            <span class="tag">Mapa</span>
+            <h3>{{ p_donde.title }}</h3>
+            <p>{{ p_donde.description }}</p>
+            <span class="meta">{% if p_donde.date_label %}{{ p_donde.date_label }}{% else %}{{ p_donde.date | date: "%d/%m/%Y" }}{% endif %}</span>
+          </a>
+          {% endif %}
+          {% if p_condo %}
+          <a class="card" href="{{ p_condo.url }}">
+            <span class="tag">Conjunto</span>
+            <h3>{{ p_condo.title }}</h3>
+            <p>{{ p_condo.description }}</p>
+            <span class="meta">{% if p_condo.date_label %}{{ p_condo.date_label }}{% else %}{{ p_condo.date | date: "%d/%m/%Y" }}{% endif %}</span>
+          </a>
+          {% endif %}
+        </div>
+      </section>
+
+      <aside class="product-strip" id="dossier">
+        <div class="left">
+          <div class="thumb" aria-hidden="true">
+            <svg viewBox="0 0 46 46" xmlns="http://www.w3.org/2000/svg" focusable="false">
+              <rect x="6" y="4" width="22" height="16" fill="none" stroke="#1d1a16" stroke-width="1.2"/>
+              <rect x="6" y="24" width="22" height="16" fill="none" stroke="#1d1a16" stroke-width="1.2"/>
+              <rect x="32" y="24" width="8" height="16" fill="rgba(90,97,72,.2)" stroke="#1d1a16" stroke-width="1.2"/>
+            </svg>
+          </div>
+          <div>
+            <strong>Dúplex Guapurú · 2 dorm · patio</strong>
+            <span>Preventa desde USD 34.000 · Doble vía La Guardia, Santa Cruz</span>
+          </div>
+        </div>
+        <a class="btn" href="https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%2C%20planos%2C%20precios%20y%20disponibilidad%20de%20Mi%20Primer%20Depto" target="_blank" rel="noreferrer">Recibir dossier</a>
+      </aside>
     </div>
   </main>
   {% include blog-footer.html %}
+  <div class="dock" role="complementary" aria-label="CTA dossier">
+    <div class="dock-inner wrap">
+      <p><strong>Dossier listo por WhatsApp.</strong> Preventa desde USD 34.000 · Guapurú.</p>
+      <a class="btn" href="https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%2C%20planos%2C%20precios%20y%20disponibilidad%20de%20Mi%20Primer%20Depto" target="_blank" rel="noreferrer">Recibir dossier</a>
+    </div>
+  </div>
 </body>
 </html>
