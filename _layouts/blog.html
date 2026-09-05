@@ -5,11 +5,6 @@
 </head>
 <body class="blog-guia">
   {% include blog-nav.html %}
-  {% assign p_duplex = nil %}
-  {% assign p_precio = nil %}
-  {% assign p_compra = nil %}
-  {% assign p_donde = nil %}
-  {% assign p_condo = nil %}
   {% for post in site.posts %}
     {% if post.url == '/blog/que-es-un-duplex-en-santa-cruz/' %}{% assign p_duplex = post %}{% endif %}
     {% if post.url == '/blog/cuanto-cuesta-un-departamento-en-santa-cruz/' %}{% assign p_precio = post %}{% endif %}
