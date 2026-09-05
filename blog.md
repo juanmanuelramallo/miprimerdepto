@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: Notas para el primer departamento
-description: Guías cortas para comprar el primer departamento en Santa Cruz de la Sierra. Dúplex, preventa y dejar de alquilar, sin humo.
+title: Antes de pedir el dossier
+description: "Guía corta para el primer departamento en Santa Cruz: tipología dúplex, precios y zona. Después pedís el dossier de Guapurú."
 permalink: /blog/
 ---
 
-Guías cortas para quien está viendo su primer depto en Santa Cruz. Sin plusvalía de folleto. Lo que sirve para decidir.
+Tres tramos: tipología, plata y zona. Después pedís el dossier del dúplex en Guapurú, con datos claros.

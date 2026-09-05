@@ -59,3 +59,51 @@ article.note a{text-decoration:underline;text-underline-offset:3px}
   .nav-links a:not(.btn){display:none}
   .nav-inner{height:64px}
 }
+
+/* Blog index — Alt C Guía */
+body.blog-guia{padding-bottom:96px}
+.page.guia{padding:48px 0 72px}
+.page.guia .wrap{width:min(1100px,calc(100% - 32px))}
+.guia-hero{padding:8px 0 28px;display:grid;grid-template-columns:1fr auto;gap:32px;align-items:end}
+.guia-hero h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(36px,5vw,52px);letter-spacing:-.045em;line-height:1;margin:0 0 12px;max-width:14ch}
+.guia-lead{color:#3d372f;font-size:17px;line-height:1.45;max-width:42ch}
+.guia-lead p{margin:0;font-size:17px;line-height:1.45;color:#3d372f}
+.guia-path{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;padding-bottom:6px}
+.guia-path a{font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:rgba(255,250,242,.6);color:#514a40;transition:.2s ease}
+.guia-path a:hover{border-color:var(--line-strong);color:var(--ink)}
+.rail{margin:0 0 28px;border:1px solid var(--line);border-radius:var(--radius);background:rgba(255,250,242,.48);overflow:hidden}
+.rail-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:22px 28px;border-bottom:1px solid var(--line);background:rgba(255,250,242,.55)}
+.rail-head .step{font-family:Georgia,"Times New Roman",serif;font-size:13px;color:var(--accent);letter-spacing:.08em;margin-bottom:4px}
+.rail-head h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:28px;letter-spacing:-.03em;margin:0}
+.rail-head .hint{font-size:13px;color:var(--muted);max-width:28ch;text-align:right;margin:0}
+.rail-cards{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.rail-cards.one{grid-template-columns:1fr}
+.rail .card{padding:26px 28px;border-right:1px solid var(--line);display:flex;flex-direction:column;gap:10px;min-height:170px;transition:background .2s ease}
+.rail .card:last-child{border-right:none}
+.rail .card:hover{background:rgba(255,250,242,.85)}
+.rail .card .tag{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:var(--accent)}
+.rail .card h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:22px;letter-spacing:-.025em;line-height:1.2;margin:0}
+.rail .card p{margin:0;color:#514a40;font-size:14px;line-height:1.5;flex:1}
+.rail .card .meta{font-size:12px;color:var(--muted)}
+.product-strip{margin:8px 0 40px;padding:22px 26px;border:1px dashed var(--line-strong);border-radius:var(--radius);display:flex;align-items:center;justify-content:space-between;gap:20px;background:rgba(255,250,242,.35)}
+.product-strip .left{display:flex;align-items:center;gap:18px}
+.product-strip .thumb{width:64px;height:64px;border:1px solid var(--line);border-radius:14px;background:var(--white);flex-shrink:0;display:grid;place-items:center}
+.product-strip .thumb svg{width:46px;height:46px}
+.product-strip strong{display:block;font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:18px;letter-spacing:-.02em;margin-bottom:4px}
+.product-strip span{font-size:13px;color:#514a40}
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:30;border-top:1px solid var(--line);background:rgba(244,239,230,.92);backdrop-filter:blur(16px)}
+.dock-inner{height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.dock p{margin:0;font-size:14px;color:#3d372f}
+.dock p strong{font-weight:720}
+@media (max-width:820px){
+  .guia-hero{grid-template-columns:1fr;gap:18px}
+  .guia-path{justify-content:flex-start}
+  .rail-head{flex-direction:column;align-items:flex-start}
+  .rail-head .hint{text-align:left;max-width:none}
+  .rail-cards{grid-template-columns:1fr}
+  .rail .card{border-right:none;border-bottom:1px solid var(--line)}
+  .rail .card:last-child{border-bottom:none}
+  .product-strip{flex-direction:column;align-items:flex-start}
+  .dock-inner{height:auto;padding:12px 0;flex-wrap:wrap}
+  body.blog-guia{padding-bottom:120px}
+}
