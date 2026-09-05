@@ -91,7 +91,7 @@
         <div class="rail-cards">
           {% if p_donde %}
           <a class="card" href="{{ p_donde.url }}">
-            <span class="tag">Mapa</span>
+            <span class="tag">Ubicación</span>
             <h3>{{ p_donde.title }}</h3>
             <p>{{ p_donde.description }}</p>
             <span class="meta">{% if p_donde.date_label %}{{ p_donde.date_label }}{% else %}{{ p_donde.date | date: "%d/%m/%Y" }}{% endif %}</span>
