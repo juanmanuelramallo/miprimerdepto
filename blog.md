@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Antes de pedir el dossier
-description: Guía corta para el primer departamento en Santa Cruz: tipología dúplex, precios y zona. Después pedís el dossier de Guapurú.
+description: "Guía corta para el primer departamento en Santa Cruz: tipología dúplex, precios y zona. Después pedís el dossier de Guapurú."
 permalink: /blog/
 ---
 
