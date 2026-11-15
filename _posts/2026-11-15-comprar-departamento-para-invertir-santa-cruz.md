@@ -3,7 +3,7 @@ layout: post
 title: "Comprar un departamento en Santa Cruz para invertir"
 description: "Si ya tenés la plata y querés una renta, un dúplex de 2 dormitorios puede alquilarse. La vara es la del 5% de Nantas. En avisos del oeste, un 2 dormitorios pide 3.300 a 3.700 bolivianos al mes."
 permalink: /blog/comprar-departamento-para-invertir-santa-cruz/
-date_label: 16 de noviembre de 2026
+date_label: 15 de noviembre de 2026
 robots: noindex, nofollow
 sitemap: false
 faq:
