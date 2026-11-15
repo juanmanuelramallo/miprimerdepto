@@ -8,7 +8,7 @@ faq:
   - q: ¿Cuánto cuesta un departamento en Santa Cruz de la Sierra?
     a: En avisos de agosto de 2026, un departamento de 2 dormitorios sale entre unos 75 y 125 mil dólares según la zona. Un monoambiente puede arrancar cerca de 56 mil. Son precios de oferta, no de escritura.
   - q: ¿Qué me alcanza con 35 mil dólares?
-    a: No un 2 dormitorios en Equipetrol. Un departamento social de AEVivienda, con requisitos, o una preventa chica. Un dúplex de primer techo puede arrancar en 34 mil.
+    a: No un 2 dormitorios en Equipetrol. Un departamento social de AEVivienda, con requisitos, o un dúplex con patio en un conjunto más afuera. El precio de una unidad privada se consulta con la constructora.
   - q: ¿Cuánto necesito para dejar de alquilar en 2026?
     a: Un alquiler de 2 dormitorios en torre ronda 5.500 bolivianos al mes en avisos. Eso no compra el depto de Equipetrol. Sirve para comparar con una preventa de dúplex, no con una torre.
   - q: ¿Los 34 mil de AEVivienda son lo mismo que una preventa privada?
@@ -31,7 +31,7 @@ Con 35 mil no compras el 2 dormitorios de Equipetrol. Comprás otra cosa.
 
 [AEVivienda](https://eldeber.com.bo/economia/aevivienda-oferta-departamentos-sociales-us-17-529-santa-cruz-cochabamba_1777229499){:target="_blank" rel="noopener"} publica departamentos sociales entre 17.529 y 34 mil dólares (abril 2026). Hay que no tener vivienda ni terreno, no haber sido beneficiado antes, y calificar para crédito hipotecario. En Santa Cruz están en Alto de Cotoca, Patujú (Satélite Norte) y urbanización Papa Francisco, carretera a Warnes. Es un programa del Estado, no una preventa privada.
 
-Con ese mismo techo, un dúplex de primer techo en preventa puede arrancar en 34 mil: dos plantas, dos dormitorios, dos baños y patio propio. No es un monoambiente. No es AEVivienda. Queda más lejos que el 3º anillo. El Condominio Guapurú, en la Doble vía La Guardia km 12, es ese producto.
+Un dúplex de dos plantas, dos dormitorios, dos baños y patio propio también se ofrece por fuera de Equipetrol y de AEVivienda. Queda más lejos que el 3º anillo. El Condominio Guapurú, en la Doble vía La Guardia km 12, es ese producto: entrega llave en mano a un mes de tu reserva. El precio se consulta por WhatsApp.
 
 Con 35 mil a veces alcanza un lote. Es tierra, no techo.
 
@@ -47,4 +47,4 @@ Si el aviso dice 2 dormitorios, fijate si el segundo es real o un escritorio. Si
 
 Pedí el tipo de cambio de la operación. En Santa Cruz casi todas las fichas muestran oficial y paralelo. El número grande no alcanza.
 
-No mezcles un depto de 34 mil con uno de 100 mil. Son tamaños, zonas y reglas distintas. El barato no es el mismo depto, más afuera. Es otro producto. Comparalo con lo que sí es: patio, dos plantas, preventa.
+No mezcles un depto de AEVivienda o un dúplex más afuera con uno de 100 mil. Son tamaños, zonas y reglas distintas. El más accesible no es el mismo depto, más afuera. Es otro producto. Comparalo con lo que sí es: patio, dos plantas, un conjunto chico.
