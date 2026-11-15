@@ -37,7 +37,7 @@ Si el aviso dice solo "condominio", pedí el plano. ¿Un piso? ¿Dos plantas? ¿
 
 Las torres del 5to al 7mo anillo sobre la Doble vía a La Guardia suelen ser departamento en un piso, con expensas de edificio. En avisos, un 2 dormitorios de ese tramo anda cerca de 75 a 80 mil. Eso está en [cuánto cuesta un departamento en Santa Cruz](/blog/cuanto-cuesta-un-departamento-en-santa-cruz/).
 
-Un dúplex en condominio, más afuera, cambia el uso: menos anillo, más planta. El Condominio Guapurú es eso: preventa desde 34 mil, dos dormitorios, dos baños, kitchenette y patio. No es una torre de Equipetrol con otro nombre.
+Un dúplex en condominio, más afuera, cambia el uso: menos anillo, más planta. El Condominio Guapurú es eso: dos dormitorios, dos baños, kitchenette y patio. Entrega llave en mano a un mes de tu reserva. El precio se consulta por WhatsApp. No es una torre de Equipetrol con otro nombre.
 
 ## Qué mirar en el aviso
 

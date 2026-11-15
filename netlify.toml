@@ -1,0 +1,10 @@
+# Leftover landings that published a price. Send them to the current home.
+[[redirects]]
+  from = "/guapuru.html"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/indexv0.html"
+  to = "/"
+  status = 301
