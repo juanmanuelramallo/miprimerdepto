@@ -1,25 +1,29 @@
 ---
 layout: post
 title: "Regalar un departamento en Santa Cruz esta Navidad"
-description: "Si esta Navidad querés regalar un lugar para vivir, o regalártelo, un dúplex con patio es un regalo que se sigue usando en enero. Se reserva ahora y, en todas las unidades, se entrega llave en mano a un mes."
+description: "Si esta Navidad querés regalar un lugar para vivir, o regalártelo, un dúplex con patio es un regalo que se sigue usando en enero. Se reserva ahora y, en todas las unidades, se entrega llave en mano a un mes. Hasta el 31 de diciembre de 2026 hay un bono o descuento de fin de año."
 permalink: /blog/regalar-departamento-navidad-santa-cruz/
 date_label: 15 de noviembre de 2026
 robots: noindex, nofollow
 sitemap: false
+cta_text: "Si reservás hasta el 31 de diciembre de 2026, hay un bono o descuento de fin de año. Pedí el dossier y consultá el detalle por WhatsApp."
+cta_whatsapp: "https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%2C%20planos%2C%20precios%20y%20disponibilidad%20de%20Mi%20Primer%20Depto%2C%20y%20consultar%20el%20bono%20de%20fin%20de%20a%C3%B1o"
 faq:
   - q: "¿Tiene sentido regalar un dúplex esta Navidad?"
-    a: "Sí, si querés un regalo que se use todos los días: para un hijo, una pareja, los padres, o para vos. En Guapurú se reserva ahora y, en todas las unidades, se entrega llave en mano a un mes. No hay expensas."
+    a: "Sí, si querés un regalo que se use todos los días: para un hijo, una pareja, los padres, o para vos. En Guapurú se reserva ahora y, en todas las unidades, se entrega llave en mano a un mes. No hay expensas. Si reservás hasta el 31 de diciembre de 2026, hay un bono o descuento de fin de año."
   - q: "¿Se puede entrar a vivir cerca de las fiestas?"
     a: "Si reservás ahora, la entrega llave en mano es a un mes de la reserva, en todas las unidades. No es una preventa a un año."
+  - q: "¿Hay un bono o descuento de fin de año?"
+    a: "Sí, si reservás hasta el 31 de diciembre de 2026. El detalle se consulta por WhatsApp, con el dossier."
   - q: "¿Hay expensas en Guapurú?"
     a: "No. No hay expensas, no hay consorcio ni hace falta uno."
   - q: "¿Para quién no conviene este regalo?"
     a: "Si la persona necesita 2º o 3º anillo sí o sí, o no puede usar escalera. Un dúplex no arregla la distancia. Arregla el uso del espacio."
   - q: "¿Cómo se pide el precio y la disponibilidad?"
-    a: "Por WhatsApp, con el dossier: plantas, patio, precio y unidades disponibles. El precio no está en la página; se consulta."
+    a: "Por WhatsApp, con el dossier: plantas, patio, precio, unidades disponibles y el detalle del bono de fin de año. El precio no está en la página; se consulta."
 ---
 
-Si esta Navidad querés regalar un lugar para vivir, o regalártelo, un dúplex con patio propio es de las pocas cosas que se siguen usando en enero. No es un televisor. Es dos plantas, un patio, y una reserva que, en todas las unidades, entrega las llaves a un mes.
+Si esta Navidad querés regalar un lugar para vivir, o regalártelo, un dúplex con patio propio es de las pocas cosas que se siguen usando en enero. No es un televisor. Es dos plantas, un patio, y una reserva que, en todas las unidades, entrega las llaves a un mes. Si reservás hasta el 31 de diciembre de 2026, hay un bono o descuento de fin de año.
 
 ## Por qué un departamento y no otra cosa
 
@@ -45,4 +49,6 @@ No, si necesita 2º o 3º anillo sí o sí. Si alguien no puede usar escalera. S
 
 El patio: si se usa o es un pasillo. Los dos baños, uno por piso. Si el parqueo va aparte. En Guapurú no hay que preguntar por expensas: no hay.
 
-Pedí el dossier por WhatsApp. Ahí van plantas, patio, disponibilidad y el precio de la unidad. No hace falta adivinarlo en un aviso.
+## Bono de fin de año
+
+Si reservás hasta el 31 de diciembre de 2026, hay un bono o descuento de fin de año. El detalle no está en la página: se consulta por WhatsApp, junto con el dossier.

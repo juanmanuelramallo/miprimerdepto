@@ -80,8 +80,8 @@
         </section>
         {% endif %}
         <div class="cta">
-          <p>Si estás comparando unidades, pedí el dossier y mirá plantas, patio y precio.</p>
-          <a class="btn" href="https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%2C%20planos%2C%20precios%20y%20disponibilidad%20de%20Mi%20Primer%20Depto" target="_blank" rel="noreferrer">Recibir dossier</a>
+          <p>{% if page.cta_text %}{{ page.cta_text }}{% else %}Si estás comparando unidades, pedí el dossier y mirá plantas, patio y precio.{% endif %}</p>
+          <a class="btn" href="{% if page.cta_whatsapp %}{{ page.cta_whatsapp }}{% else %}https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%2C%20planos%2C%20precios%20y%20disponibilidad%20de%20Mi%20Primer%20Depto{% endif %}" target="_blank" rel="noreferrer">Recibir dossier</a>
         </div>
       </article>
     </div>
