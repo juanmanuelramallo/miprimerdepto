@@ -8,6 +8,7 @@ robots: noindex, nofollow
 sitemap: false
 image: /assets/images/blog/regalar-departamento-navidad-santa-cruz.jpg
 image_webp: /assets/images/blog/regalar-departamento-navidad-santa-cruz.webp
+hide_cover: true
 image_alt: "Hojas de palmera verdes sobre un atardecer dorado y terracota, con una estrella y esferas"
 cta_text: "Si reservás hasta el 31 de diciembre de 2026, hay un precio de preventa. Pedí el dossier y consultá el detalle por WhatsApp."
 cta_whatsapp: "https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%2C%20planos%2C%20precios%20y%20disponibilidad%20de%20Mi%20Primer%20Depto%2C%20y%20consultar%20el%20precio%20de%20preventa"
@@ -41,6 +42,13 @@ También vale autoregalárselo. Si estás alquilando y podés reservar, el pago 
 Hay preventas que se entregan en un año. Acá no. En el Condominio Guapurú, sobre la Doble vía a La Guardia km 12, todas las unidades se entregan llave en mano en diciembre. No es el esquema de [condominio](/blog/que-es-un-condominio-en-santa-cruz/) con administración y expensas: acá no hay expensas, no hay consorcio ni hace falta uno. Adentro, patio propio.
 
 Eso cambia el regalo. No es un render para el año que viene. Es un lugar al que se puede entrar en diciembre, si reservás ahora.
+
+<figure class="note-cover">
+  <picture>
+    <source type="image/webp" srcset="/assets/images/blog/regalar-departamento-navidad-santa-cruz.webp">
+    <img src="/assets/images/blog/regalar-departamento-navidad-santa-cruz.jpg" alt="Hojas de palmera verdes sobre un atardecer dorado y terracota, con una estrella y esferas" width="1200" height="675" loading="lazy">
+  </picture>
+</figure>
 
 ## Para quién sí, y para quién no
 
