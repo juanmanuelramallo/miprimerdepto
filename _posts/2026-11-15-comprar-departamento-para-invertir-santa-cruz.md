@@ -29,8 +29,6 @@ No es una garantía. La cuenta, acá, se hace con avisos de Santa Cruz.
 
 ## Qué renta se ve en avisos
 
-No encontré un aviso actual de un dúplex de dos dormitorios exactamente en el km 12. Sobre la misma avenida hay anclas.
-
 Un 2 dormitorios en el condominio San Francisco 1, Doble vía a La Guardia entre 5to y 6to anillo, se ofrece a 3.700 bolivianos al mes, con expensas y parqueo incluidos ([Mobiliario](https://mobiliario.app/listings/5607f466-7528-4e55-afbe-16aa87f0609f){:target="_blank" rel="noopener"}). Otro de 2 dormitorios entre 4to y 5to anillo pide 3.300 bolivianos en el texto de [InfoCasas](https://www.infocasas.com.bo/dpto-en-alquiler-doble-via-la-guardia-entre-4to-y-5to-anillo/192744487){:target="_blank" rel="noopener"}. Ese aviso está desde agosto de 2025: tomalo como referencia, no como cierre de hoy. En el km 9, un monoambiente amoblado con patio en Casa Patio 1 aparece a 1.900 bolivianos en el [listado de alquileres de esa avenida](https://www.infocasas.com.bo/alquiler/inmuebles/santa-cruz/doble-via-la-guardia){:target="_blank" rel="noopener"}.
 
 Un dúplex de dos dormitorios en el km 12 queda, por tamaño, arriba del monoambiente. Por distancia, no es el 2 dormitorios del 5to anillo. Los avisos de 2 dormitorios en torre, más adentro, andan cerca de 5.500 bolivianos, como ya está en [cuánto cuesta un departamento en Santa Cruz](/blog/cuanto-cuesta-un-departamento-en-santa-cruz/). Son precios de oferta, no de contrato firmado.
