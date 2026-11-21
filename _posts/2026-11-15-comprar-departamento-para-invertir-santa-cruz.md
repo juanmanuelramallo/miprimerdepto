@@ -21,7 +21,7 @@ faq:
 
 Si ya tenés la plata y lo que querés es que trabaje, un dúplex de dos dormitorios puede alquilarse. La cuenta es renta anual sobre el precio de compra, menos vacancia, impuestos y mantenimiento. Una vara útil es la del 5% que explica [Nantas](https://nantas.com.uy/2023/06/02/alquilar-es-tirar-plata-a-la-basura-la-regla-del-5/){:target="_blank" rel="noopener"}.
 
-## Lo que dice Nantas
+## La regla del 5%
 
 Nantas, una firma de asesoría en inversión, plantea que ser dueño tiene un costo irrecuperable de cerca del 5% anual del valor: impuestos, mantenimiento y el costo de oportunidad del capital. Si vas a vivir vos, comparás ese 5% con el alquiler que te ahorrás. Si comprás para alquilar, el 5% sirve de umbral: la renta tendría que estar cerca o arriba de ese número, porque después hay que descontar vacancia y lo que no es alquiler puro.
 
