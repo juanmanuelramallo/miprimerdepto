@@ -3,9 +3,7 @@ layout: post
 title: "Regalar un departamento en Santa Cruz esta Navidad"
 description: "Si esta Navidad querés regalar un lugar para vivir, o regalártelo, un dúplex con patio es un regalo que se sigue usando en enero. Se reserva ahora y, en todas las unidades, se entrega en diciembre. Hasta el 31 de diciembre de 2026 hay un precio de preventa."
 permalink: /blog/regalar-departamento-navidad-santa-cruz/
-date_label: 15 de noviembre de 2026
-robots: noindex, nofollow
-sitemap: false
+date_label: 21 de noviembre de 2026
 image: /assets/images/blog/regalar-departamento-navidad-santa-cruz.jpg
 image_webp: /assets/images/blog/regalar-departamento-navidad-santa-cruz.webp
 hide_cover: true
