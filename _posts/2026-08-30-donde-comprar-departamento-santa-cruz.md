@@ -23,9 +23,9 @@ Oeste es Las Palmas. Y de Las Palmas hacia afuera, por la Doble vía a La Guardi
 
 InfoCasas pone “Doble vía La Guardia” a esas torres. Radial 17½. Eso es ciudad.
 
-Km 12 no está en esa etiqueta. Ahí lo que te alcanza no es el depto de 80 mil. Es un [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) de dos plantas, con patio, en una preventa más chica.
+Km 12 no está en esa etiqueta. Ahí lo que te alcanza no es el depto de 80 mil. Es un [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) de dos plantas, con patio, en un conjunto más chico.
 
-Misma avenida. Más adelante. Otro municipio. El Condominio Guapurú es eso: preventa desde 34 mil, dos dormitorios, dos baños, kitchenette y patio. No arregla la distancia. Arregla que no te vendan km 12 como si fuera Las Palmas.
+Misma avenida. Más adelante. Otro municipio. El Condominio Guapurú es eso: dos dormitorios, dos baños, kitchenette y patio. Entrega llave en mano a un mes de tu reserva. El precio se consulta por WhatsApp. No arregla la distancia. Arregla que no te vendan km 12 como si fuera Las Palmas.
 
 ## El sur
 
@@ -43,4 +43,4 @@ El anillo. Si dice Doble vía a La Guardia, pedí el km. 5to a 7mo es oeste. Km 
 
 Patio o un solo piso. Dos plantas o un piso. Parqueo aparte. Tipo de cambio del aviso.
 
-No compares un dúplex de 34 mil con una torre de 80 mil como si fueran la misma zona, más lejos. Pedí el dossier y mirá en cuál estás parado.
+No compares un dúplex más afuera con una torre de 80 mil como si fueran la misma zona, más lejos. Pedí el dossier y mirá en cuál estás parado.
