@@ -6,6 +6,9 @@ permalink: /blog/regalar-departamento-navidad-santa-cruz/
 date_label: 15 de noviembre de 2026
 robots: noindex, nofollow
 sitemap: false
+image: /assets/images/blog/regalar-departamento-navidad-santa-cruz.jpg
+image_webp: /assets/images/blog/regalar-departamento-navidad-santa-cruz.webp
+image_alt: "Puerta de un dúplex con corona navideña, luces, un regalo y una llave con moño"
 cta_text: "Si reservás hasta el 31 de diciembre de 2026, hay un precio de preventa. Pedí el dossier y consultá el detalle por WhatsApp."
 cta_whatsapp: "https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%2C%20planos%2C%20precios%20y%20disponibilidad%20de%20Mi%20Primer%20Depto%2C%20y%20consultar%20el%20precio%20de%20preventa"
 faq:

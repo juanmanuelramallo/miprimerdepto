@@ -14,7 +14,7 @@
         "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
         "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",
         "mainEntityOfPage": "{{ page.url | absolute_url }}",
-        "image": "{{ site.url }}/assets/images/guapuru/material-arquitecto-08.jpg",
+        "image": "{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.url }}/assets/images/guapuru/material-arquitecto-08.jpg{% endif %}",
         "author": { "@type": "Organization", "name": "Mi Primer Depto", "url": "{{ site.url }}/" },
         "publisher": { "@type": "Organization", "name": "Mi Primer Depto", "url": "{{ site.url }}/" }
       }{% if page.faq %},
@@ -67,6 +67,19 @@
           {% when 12 %}{% assign month = "diciembre" %}
         {% endcase %}
         <p class="meta"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{% if page.date_label %}{{ page.date_label }}{% else %}{{ day }} de {{ month }} de {{ year }}{% endif %}</time></p>
+        {% if page.image %}
+        <figure class="note-cover">
+          {% if page.image_webp %}
+          <picture>
+            <source type="image/webp" srcset="{{ page.image_webp }}">
+            <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}" width="1200" height="675">
+          </picture>
+          {% else %}
+          <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}" width="1200" height="675">
+          {% endif %}
+          <figcaption>Ilustración</figcaption>
+        </figure>
+        {% endif %}
         {{ content }}
         {% if page.faq %}
         <section class="faq" id="faq">
