@@ -10,7 +10,7 @@ image: /assets/images/blog/ventura-sur-5to-anillo-doble-via-la-guardia.jpg
 image_webp: /assets/images/blog/ventura-sur-5to-anillo-doble-via-la-guardia.webp
 hide_cover: true
 image_alt: "Ilustración del centro comercial Ventura Sur al atardecer, con palmeras y la avenida"
-subtitle: "Cerca de tu próximo dúplex soñado, todo a tu alcance: Ventura Sur abrió sobre la misma Doble vía a La Guardia."
+subtitle: "¿Qué tan cerca queda Ventura Sur del Condominio Guapurú, con dúplex pensados para tu independencia, confort y economía?"
 cta_text: "Si estás mirando un dúplex en el km 12, pedí el dossier y consultá el precio por WhatsApp."
 cta_whatsapp: "https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%2C%20planos%2C%20precios%20y%20disponibilidad%20de%20Mi%20Primer%20Depto"
 faq:
