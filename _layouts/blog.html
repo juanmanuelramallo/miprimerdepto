@@ -11,6 +11,7 @@
     {% if post.url == '/blog/comprar-o-alquilar-departamento-santa-cruz/' %}{% assign p_compra = post %}{% endif %}
     {% if post.url == '/blog/donde-comprar-departamento-santa-cruz/' %}{% assign p_donde = post %}{% endif %}
     {% if post.url == '/blog/que-es-un-condominio-en-santa-cruz/' %}{% assign p_condo = post %}{% endif %}
+    {% if post.url == '/blog/regalar-departamento-navidad-santa-cruz/' %}{% assign p_navidad = post %}{% endif %}
   {% endfor %}
   <main class="page guia">
     <div class="wrap">
@@ -35,13 +36,21 @@
           </div>
           <p class="hint">Dos plantas, patio propio. No torre, no casa suelta.</p>
         </div>
-        <div class="rail-cards one">
+        <div class="rail-cards">
           {% if p_duplex %}
           <a class="card" href="{{ p_duplex.url }}">
             <span class="tag">Producto</span>
             <h3>{{ p_duplex.title }}</h3>
             <p>{{ p_duplex.description }}</p>
             <span class="meta">{% if p_duplex.date_label %}{{ p_duplex.date_label }}{% else %}{{ p_duplex.date | date: "%d/%m/%Y" }}{% endif %}</span>
+          </a>
+          {% endif %}
+          {% if p_navidad %}
+          <a class="card" href="{{ p_navidad.url }}">
+            <span class="tag">Navidad</span>
+            <h3>{{ p_navidad.title }}</h3>
+            <p>{{ p_navidad.description }}</p>
+            <span class="meta">{% if p_navidad.date_label %}{{ p_navidad.date_label }}{% else %}{{ p_navidad.date | date: "%d/%m/%Y" }}{% endif %}</span>
           </a>
           {% endif %}
         </div>

@@ -107,3 +107,7 @@ body.blog-guia{padding-bottom:96px}
   .dock-inner{height:auto;padding:12px 0;flex-wrap:wrap}
   body.blog-guia{padding-bottom:120px}
 }
+
+article.note .note-cover{margin:32px 0}
+article.note .meta + .note-cover{margin:0 0 32px}
+article.note .note-cover img{width:100%;height:auto;display:block;border-radius:18px;border:1px solid var(--line)}
