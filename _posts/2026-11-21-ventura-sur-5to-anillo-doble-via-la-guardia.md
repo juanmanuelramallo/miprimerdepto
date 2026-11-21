@@ -6,10 +6,11 @@ permalink: /blog/ventura-sur-5to-anillo-doble-via-la-guardia/
 date_label: 21 de noviembre de 2026
 robots: noindex, nofollow
 sitemap: false
-# image: /assets/images/blog/ventura-sur-5to-anillo-doble-via-la-guardia.jpg
-# image_webp: /assets/images/blog/ventura-sur-5to-anillo-doble-via-la-guardia.webp
+image: /assets/images/blog/ventura-sur-5to-anillo-doble-via-la-guardia.jpg
+image_webp: /assets/images/blog/ventura-sur-5to-anillo-doble-via-la-guardia.webp
 hide_cover: true
-# image_alt: "Fachada de Ventura Sur en el 5to anillo y la Doble vía a La Guardia"
+image_alt: "Ilustración del centro comercial Ventura Sur al atardecer, con palmeras y la avenida"
+subtitle: "Cerca de tu próximo dúplex soñado, todo a tu alcance: Ventura Sur abrió sobre la misma Doble vía a La Guardia."
 cta_text: "Si estás mirando un dúplex en el km 12, pedí el dossier y consultá el precio por WhatsApp."
 cta_whatsapp: "https://wa.me/59177363153?text=Hola%2C%20quiero%20recibir%20el%20dossier%2C%20planos%2C%20precios%20y%20disponibilidad%20de%20Mi%20Primer%20Depto"
 faq:
@@ -45,15 +46,12 @@ En ruta libre son unos 8 km por la misma avenida, alrededor de 8 a 10 minutos si
 
 Ir al Ventura Mall del 4to, desde el km 12, son unos 17 km. El Sur queda más cerca, porque está en el camino a la ciudad. No convierte el km 12 en 5to anillo. La Guardia es otro municipio.
 
-{% comment %}
-Placeholder de imagen, a la mitad del post. hide_cover: true deja la portada fuera del encabezado. Cuando haya ilustración, descomentá image, image_webp e image_alt en el frente y este bloque:
 <figure class="note-cover">
   <picture>
     <source type="image/webp" srcset="/assets/images/blog/ventura-sur-5to-anillo-doble-via-la-guardia.webp">
-    <img src="/assets/images/blog/ventura-sur-5to-anillo-doble-via-la-guardia.jpg" alt="Fachada de Ventura Sur en el 5to anillo y la Doble vía a La Guardia" width="1200" height="675" loading="lazy">
+    <img src="/assets/images/blog/ventura-sur-5to-anillo-doble-via-la-guardia.jpg" alt="Ilustración del centro comercial Ventura Sur al atardecer, con palmeras y la avenida" width="1200" height="675" loading="lazy">
   </picture>
 </figure>
-{% endcomment %}
 
 ## Qué ya está abierto y qué todavía se está armando
 

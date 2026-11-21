@@ -37,6 +37,7 @@ article.note, .listing{width:min(720px,100%);margin-inline:auto}
 article.note h1,.listing h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.05em;line-height:.95;margin:0 0 18px;font-size:clamp(40px,6vw,64px)}
 .meta{color:var(--muted);font-size:14px;margin:0 0 32px}
 article.note .lead, article.note > p:first-of-type{font-size:20px;line-height:1.45;color:#3d372f}
+article.note h1 + .lead{margin:0 0 14px}
 article.note h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.03em;font-size:clamp(26px,3.2vw,34px);margin:40px 0 12px}
 article.note p, .listing p{font-size:17px;line-height:1.6;color:#3d372f}
 article.note p + p{margin-top:14px}
