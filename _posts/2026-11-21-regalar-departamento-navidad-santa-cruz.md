@@ -31,7 +31,7 @@ Si esta Navidad querés regalar un lugar para vivir, o regalártelo, un dúplex 
 
 En fin de año mucha gente anda con el aguinaldo, el cierre de cuentas, o la pregunta de qué dejarle a un hijo, a una pareja o a los padres. Un regalo chico se gasta. Un departamento queda.
 
-Un [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) no es una casa ni un penthouse. Abajo va el día: sala, kitchenette, un baño y la salida al patio. Arriba, dos dormitorios y el segundo baño. Sirve para independizarse, para una pareja, o para padres que quieren patio sin meterse en una casa grande.
+Un [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) no es una casa ni un penthouse. Abajo: sala, kitchenette, un baño y la salida al patio. Arriba, dos dormitorios y el segundo baño. Sirve para independizarse, para una pareja, o para padres que quieren patio sin meterse en una casa grande.
 
 También vale autoregalárselo. Si estás alquilando y podés reservar, el pago deja de ser renta. Eso lo hablamos en [conviene comprar o alquilar un departamento en Santa Cruz](/blog/comprar-o-alquilar-departamento-santa-cruz/).
 
