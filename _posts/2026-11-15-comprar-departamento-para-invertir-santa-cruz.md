@@ -25,7 +25,7 @@ Si ya tenés la plata y lo que querés es que trabaje, un dúplex de dos dormito
 
 Nantas, una firma de asesoría en inversión, plantea que ser dueño tiene un costo irrecuperable de cerca del 5% anual del valor: impuestos, mantenimiento y el costo de oportunidad del capital. Si vas a vivir vos, comparás ese 5% con el alquiler que te ahorrás. Si comprás para alquilar, el 5% sirve de umbral: la renta tendría que estar cerca o arriba de ese número, porque después hay que descontar vacancia y lo que no es alquiler puro.
 
-No es una garantía. El artículo está pensado desde Uruguay. La cuenta, acá, se hace con avisos de Santa Cruz.
+No es una garantía. La cuenta, acá, se hace con avisos de Santa Cruz.
 
 ## Qué renta se ve en avisos
 
