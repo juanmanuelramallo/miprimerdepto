@@ -49,6 +49,7 @@
       <article class="note">
         <p class="kicker">Notas</p>
         <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}<p class="lead">{{ page.subtitle }}</p>{% endif %}
         {% assign day = page.date | date: "%d" | plus: 0 %}
         {% assign month_n = page.date | date: "%m" | plus: 0 %}
         {% assign year = page.date | date: "%Y" %}
