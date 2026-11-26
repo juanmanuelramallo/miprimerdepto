@@ -12,6 +12,7 @@
     {% if post.url == '/blog/donde-comprar-departamento-santa-cruz/' %}{% assign p_donde = post %}{% endif %}
     {% if post.url == '/blog/que-es-un-condominio-en-santa-cruz/' %}{% assign p_condo = post %}{% endif %}
     {% if post.url == '/blog/regalar-departamento-navidad-santa-cruz/' %}{% assign p_navidad = post %}{% endif %}
+    {% if post.url == '/blog/ventura-sur-5to-anillo-doble-via-la-guardia/' %}{% assign p_ventura = post %}{% endif %}
   {% endfor %}
   <main class="page guia">
     <div class="wrap">
@@ -107,6 +108,14 @@
             <h3>{{ p_condo.title }}</h3>
             <p>{{ p_condo.description }}</p>
             <span class="meta">{% if p_condo.date_label %}{{ p_condo.date_label }}{% else %}{{ p_condo.date | date: "%d/%m/%Y" }}{% endif %}</span>
+          </a>
+          {% endif %}
+          {% if p_ventura %}
+          <a class="card" href="{{ p_ventura.url }}">
+            <span class="tag">Zona</span>
+            <h3>{{ p_ventura.title }}</h3>
+            <p>{{ p_ventura.description }}</p>
+            <span class="meta">{% if p_ventura.date_label %}{{ p_ventura.date_label }}{% else %}{{ p_ventura.date | date: "%d/%m/%Y" }}{% endif %}</span>
           </a>
           {% endif %}
         </div>

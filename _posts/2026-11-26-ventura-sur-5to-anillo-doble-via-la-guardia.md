@@ -3,9 +3,8 @@ layout: post
 title: "A cuánto queda Ventura Sur si buscás un departamento en Santa Cruz hacia La Guardia"
 description: "Ventura Sur está en el 5to anillo y la Doble vía a La Guardia, todavía en Santa Cruz de la Sierra. El km 12 ya es La Guardia: misma avenida, unos 8 km, alrededor de 8 a 10 minutos sin tráfico. No es el Ventura Mall del 4to anillo. La inauguración oficial es el 28 de noviembre de 2026."
 permalink: /blog/ventura-sur-5to-anillo-doble-via-la-guardia/
-date_label: 21 de noviembre de 2026
-robots: noindex, nofollow
-sitemap: false
+date: 2026-11-26
+date_label: 26 de noviembre de 2026
 image: /assets/images/blog/ventura-sur-5to-anillo-doble-via-la-guardia.jpg
 image_webp: /assets/images/blog/ventura-sur-5to-anillo-doble-via-la-guardia.webp
 hide_cover: true
