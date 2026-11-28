@@ -45,7 +45,7 @@ La primera foto es la fachada. Se ve el volumen de dos plantas, la reja negra y 
 
 ## Ingreso
 
-Pasás el portón y queda el ingreso: un portal de hormigón, la reja interior y el corredor hacia adentro. En la foto, un trabajador entra con un balde. La obra está activa.
+Pasás el portón y queda el ingreso: un portal de hormigón, la reja interior y el corredor hacia adentro. La obra está activa.
 
 <figure class="note-cover">
   <picture>
