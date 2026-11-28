@@ -57,12 +57,12 @@ Pasás el portón y queda el ingreso: un portal de hormigón, la reja interior y
 
 ## Pasillo
 
-El pasillo cruza y abre hacia el fondo, al aire. Se ve un muro, un andamio y vegetación atrás. A los costados hay vanos de puertas. Hay herramientas en el piso. Todavía no está terminado: es el recorrido de la unidad, en obra.
+El pasillo cruza y abre hacia el fondo, al aire. Se ve un muro, un andamio y vegetación atrás. A los costados están los huecos de las puertas. Hay herramientas en el piso. Todavía no está terminado: es el recorrido de la unidad, en obra.
 
 <figure class="note-cover">
   <picture>
     <source type="image/webp" srcset="/assets/images/blog/avance-de-obra-noviembre-2026-pasillo.webp">
-    <img src="/assets/images/blog/avance-de-obra-noviembre-2026-pasillo.jpg" alt="Pasillo en obra que abre hacia el fondo, con andamio amarillo, una escoba y vanos de puertas a los costados" width="1600" height="1200" loading="lazy">
+    <img src="/assets/images/blog/avance-de-obra-noviembre-2026-pasillo.jpg" alt="Pasillo en obra que abre hacia el fondo, con andamio amarillo, una escoba y los huecos de las puertas a los costados" width="1600" height="1200" loading="lazy">
   </picture>
   <figcaption>El pasillo, hacia el fondo de la unidad.</figcaption>
 </figure>
