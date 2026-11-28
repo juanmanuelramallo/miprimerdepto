@@ -22,14 +22,18 @@ faq:
   - q: "¿Ya está terminado?"
     a: "No. Sigue en obra. La entrega es llave en mano, a un mes de la reserva."
   - q: "¿Hay expensas en Guapurú?"
-    a: "No. Hay 0 expensas: no hay consorcio ni hace falta uno."
+    a: "Hay 0 expensas mensuales. Solo en caso de gastos extraordinarios."
+  - q: "¿Qué incluye cada dúplex?"
+    a: "Patio, tanque de agua exclusivo, gas natural y preinstalación de aire acondicionado en todos los ambientes. También desagüe para la lavadora, con un recolector de aguas jabonosas y cámaras filtrantes."
   - q: "¿Cómo se pide el dossier?"
     a: "Escribinos por WhatsApp y pedí el dossier. Ahí están las plantas, el patio y la disponibilidad."
 ---
 
 En noviembre de 2026 se puede ver el avance de obra de un departamento en Santa Cruz hacia La Guardia: la fachada, el ingreso, el pasillo, la planta baja, la escalera y un dormitorio. Todavía es obra en curso.
 
-Las fotos son del Condominio Guapurú, en el Km 12 de la Doble vía a La Guardia, en el municipio de La Guardia. Son [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) de dos plantas, con patio propio. Hay 0 expensas: no hay consorcio ni hace falta uno. La entrega es llave en mano, a un mes de la reserva.
+Las fotos son del Condominio Guapurú, en el Km 12 de la Doble vía a La Guardia, en el municipio de La Guardia. Son [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) de dos plantas, con patio propio. Hay 0 expensas mensuales. Solo en caso de gastos extraordinarios. La entrega es llave en mano, a un mes de la reserva.
+
+Cada dúplex tiene patio, tanque de agua exclusivo, gas natural y preinstalación de aire acondicionado en todos los ambientes. También tiene desagüe para la lavadora, con un recolector de aguas jabonosas y cámaras filtrantes.
 
 ## Fachada
 
