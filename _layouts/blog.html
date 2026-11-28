@@ -13,6 +13,7 @@
     {% if post.url == '/blog/que-es-un-condominio-en-santa-cruz/' %}{% assign p_condo = post %}{% endif %}
     {% if post.url == '/blog/regalar-departamento-navidad-santa-cruz/' %}{% assign p_navidad = post %}{% endif %}
     {% if post.url == '/blog/ventura-sur-5to-anillo-doble-via-la-guardia/' %}{% assign p_ventura = post %}{% endif %}
+    {% if post.url == '/blog/avance-de-obra-noviembre-2026/' %}{% assign p_obra = post %}{% endif %}
   {% endfor %}
   <main class="page guia">
     <div class="wrap">
@@ -116,6 +117,14 @@
             <h3>{{ p_ventura.title }}</h3>
             <p>{{ p_ventura.description }}</p>
             <span class="meta">{% if p_ventura.date_label %}{{ p_ventura.date_label }}{% else %}{{ p_ventura.date | date: "%d/%m/%Y" }}{% endif %}</span>
+          </a>
+          {% endif %}
+          {% if p_obra %}
+          <a class="card" href="{{ p_obra.url }}">
+            <span class="tag">Obra</span>
+            <h3>{{ p_obra.title }}</h3>
+            <p>{{ p_obra.description }}</p>
+            <span class="meta">{% if p_obra.date_label %}{{ p_obra.date_label }}{% else %}{{ p_obra.date | date: "%d/%m/%Y" }}{% endif %}</span>
           </a>
           {% endif %}
         </div>
