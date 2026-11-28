@@ -24,7 +24,7 @@ faq:
   - q: "¿Hay expensas en Guapurú?"
     a: "Hay 0 expensas mensuales. Solo en caso de gastos extraordinarios."
   - q: "¿Qué incluye cada dúplex?"
-    a: "Patio, tanque de agua exclusivo, gas natural y preinstalación de aire acondicionado en todos los ambientes. También desagüe para la lavadora, con un recolector de aguas jabonosas y cámaras filtrantes."
+    a: "Patio, tanque de agua exclusivo, gas natural, calefones y preinstalación de aire acondicionado en todos los ambientes. Hay dos cenitales, por donde ventilan los baños, y un ventiluz sobre la escalera. También desagüe para el lavarropas, con un recolector de aguas jabonosas y cámaras filtrantes."
   - q: "¿Cómo se pide el dossier?"
     a: "Escribinos por WhatsApp y pedí el dossier. Ahí están las plantas, el patio y la disponibilidad."
 ---
@@ -33,7 +33,7 @@ En noviembre de 2026 se puede ver el avance de obra de un departamento en Santa 
 
 Las fotos son del Condominio Guapurú, en el Km 12 de la Doble vía a La Guardia, en el municipio de La Guardia. Son [dúplex](/blog/que-es-un-duplex-en-santa-cruz/) de dos plantas, con patio propio. Hay 0 expensas mensuales. Solo en caso de gastos extraordinarios. La entrega es llave en mano, a un mes de la reserva.
 
-Cada dúplex tiene patio, tanque de agua exclusivo, gas natural y preinstalación de aire acondicionado en todos los ambientes. También tiene desagüe para la lavadora, con un recolector de aguas jabonosas y cámaras filtrantes.
+Cada dúplex tiene patio, tanque de agua exclusivo, gas natural, calefones y preinstalación de aire acondicionado en todos los ambientes. Hay dos cenitales, por donde ventilan los baños, y un ventiluz sobre la escalera. También tiene desagüe para el lavarropas, con un recolector de aguas jabonosas y cámaras filtrantes.
 
 ## Fachada
 
@@ -85,7 +85,7 @@ Abajo está el día. En esta foto se ve la kitchenette, con mesada y pileta bajo
 
 ## Escalera
 
-La escalera es de la unidad. Sube con baranda metálica, todavía sin la terminación final. En un [dúplex](/blog/que-es-un-duplex-en-santa-cruz/), esa escalera separa el día de abajo de los dormitorios de arriba.
+La escalera es de la unidad. Sube con baranda metálica, todavía sin la terminación final. Sobre la escalera hay un ventiluz. En un [dúplex](/blog/que-es-un-duplex-en-santa-cruz/), esa escalera separa el día de abajo de los dormitorios de arriba.
 
 <figure class="note-cover is-portrait">
   <picture>
